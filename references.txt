@@ -21,3 +21,7 @@ https://medium.com/@kristin_baumann/react-countdown-6455838b6faf
 
 Deploy website
 https://create-react-app.dev/docs/deployment
+
+404 publish gh-pages
+https://stackoverflow.com/questions/11577147/how-to-fix-http-404-on-github-pages
+    - choose theme jakyll even we dont use

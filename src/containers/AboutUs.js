@@ -4,22 +4,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
-import about from "../images/about.png";
-import cheamer from "../images/cheamer.jpg";
+import about from "../assets/images/about.png";
+import cheamer from "../assets/images/cheamer.jpg";
 import "./AboutUs.css";
 import Gmap from "../components/Gmap.js";
-import mainBG from "../images/engcBG.jpg";
+import mainBG from "../assets/images/engcBG.jpg";
 import TopBanner from "../components/TopBanner.js";
 
 export default class AboutUs extends React.Component {
   render() {
     return (
       <div className="aboutUs">
-      <TopBanner src={mainBG} title="robotique society" text="about us" />
-    <br />
+        <TopBanner src={mainBG} title="robotique society" text="about us" />
+        <br />
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col md="6" lg="6">
+            <br />
               <Card>
                 <Card.Img variant="top" src={about} />
                 <Card.Body>
@@ -55,21 +56,26 @@ export default class AboutUs extends React.Component {
               </Card>
             </Col>
             <Col md="6" lg="6">
+            <br />
               <Card>
                 <Card.Body>
                   <Card.Text>
-                    <h1>About Us</h1>
+                    <h1 className="about-text-center">About Us</h1>
                     <p>
-                      Robotique Society is a club/society under Universiti Kuala
-                      Lumpur, Malaysia France Institute. We aim to give exposure
-                      among students, lecturers and the communities into
-                      robotics world especially in Malaysia. We are also
-                      conducting seminars and workshops for students as we teach
-                      and share about programming, circuit designing and many
-                      more. We are also actively participates in national level
-                      robotics competition such as RoboGamez, Survival Robot
-                      Competition, FRC 2015 and many more. We are also
-                      organizing events either inside or outside campus by
+                      We are an undergraduate engineering technology student who
+                      are dedicated and passionate into robotics. Robotique
+                      Society members consist of students who are capable in
+                      mechanical, design, fabrication, programming, electronics
+                      and many more. Robotique Society is a club/society under
+                      University Kuala Lumpur, Malaysia France Institute. We aim
+                      to give exposure among students, lecturers and the
+                      communities into robotics world especially in Malaysia. We
+                      are also conducting seminars and workshops for students as
+                      we teach and share about programming, circuit designing
+                      and many more. We are also actively participating in
+                      national level robotics competition such as RoboGamez,
+                      Survival Robot Competition, FRC 2015 and many more. We are
+                      also organizing events either inside or outside campus by
                       request.
                     </p>
                     <br />
@@ -100,120 +106,66 @@ export default class AboutUs extends React.Component {
           </Row>
           <br />
           <Row>
-            <Col>
+            <Col lg="6">
+            <br />
               <Card>
                 <Card.Body>
                   <Card.Text>
-                    <Row>
-                      <Col md="3">
-                        <h2>Who We Are</h2>
-                      </Col>
-                      <Col>
-                        <p>
-                          We are an undergraduate engineering technology student
-                          who are dedicated and passionate into robotics.
-                          Robotique Society members consist of students who are
-                          capable in mechanical, design, fabrication,
-                          programming, electronics and many more.
-                        </p>
-                      </Col>
-                    </Row>
+                    <h2 className="about-text-center">Our History</h2>
+                    <br />
+                    <p>
+                      Robotique Society was established on March 12, 2014 by a
+                      couple of University Kuala Lumpur, Malaysia France
+                      Institute students who are passionate and dedicated into
+                      Robotics. Most of the founder was an engineering student
+                      who are major in Mechatronics, Industrial Automation and
+                      Robotics. This association began to turn on its first
+                      participation at the national level, RobotWar Competition
+                      in UNITEN. Robotique Society is active in robotic
+                      competitions throughout the country. In addition, the
+                      association also organizes seminars and workshops that
+                      involve engineering skills such as software, hardware and
+                      other skills like Programming Workshop and Circuit
+                      Designing Workshop.
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
-          <Row>
             <Col>
+            <br />
               <Card>
                 <Card.Body>
+                  <Card.Title>
+                    <h2 className="about-text-center">Founders</h2>
+                  </Card.Title>
                   <Card.Text>
-                    <Row>
-                      <Col md="3">
-                        <h2>Our History</h2>
-                      </Col>
-                      <Col>
-                        <p>
-                          Robotique Society was established on March 12, 2014 by
-                          a couple of University Kuala Lumpur, Malaysia France
-                          Institute students who are passionate and dedicated
-                          into Robotics. Most of the founder was an engineering
-                          student who are major in Mechatronics, Industrial
-                          Automation and Robotics.This association began to turn
-                          on its first participation at the national level,
-                          RobotWar Competition in UNITEN. Robotique Society is
-                          active in robotic competitions throughout the country.
-                          In addition, the association also organizes seminars
-                          and workshops that involve engineering skills such as
-                          software, hardware and other skills like Programming
-                          Workshop and Circuit Designing Workshop.
-                        </p>
-                      </Col>
-                    </Row>
+                    <br />
+                    <p>
+                      The founders of Robotique Society. The first generation.
+                      The first generation of Robotique Society. During this
+                      time, the club was not yet called Robotique Society, its
+                      Robotique Club UniKL MFI. The picture on the left was
+                      taken before Robotics Awareness Week (RAW) organized by
+                      UNITEN.
+                    </p>
+                    <Image style={{ width: "100%" }} src={cheamer} rounded />
+                    <p style={{ fontSize: "12px" }}>
+                      The founders of Robotique Society. The first
+                      generation:(From left) Hafiz Ikram Bin Husni Shariff,
+                      Ahmad Bin Zainul Abidin, Nor Hazrien Bin Hamdan, Mohd
+                      Akmal Afiq Bin Nor Effenday, Mior Mohd Sabri bin Safian,
+                      Muhammad Akmal Mukmin bin Iqhbal, Amir Izzat Bin Kamil,
+                      with Mr. Amir Sharizam bin Ismail sitting with our first
+                      robot: GERONEETA
+                    </p>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
           <br />
-          <Row className="about-text-center">
-            <Col>
-              <Card>
-                <Card.Body>
-                  <Card.Title>
-                    <h2>Founders</h2>
-                  </Card.Title>
-                  <Card.Text>
-                    <Row>
-                      <Col md="6">
-                        <Image
-                          style={{ width: "100%" }}
-                          src={cheamer}
-                          rounded
-                        />
-                        <p>
-                          The founders of Robotique Society. The first
-                          generation.
-                        </p>
-                      </Col>
-                      <Col>
-                        <p>
-                          The first generation of Robotique Society. During this
-                          time, the club was not yet called Robotique Society,
-                          its Robotique Club UniKL MFI. The picture on the left
-                          was taken before Robotics Awareness Week (RAW)
-                          organized by UNITEN.
-                          <br />
-                          <br />
-                          On the left:
-                          <br />
-                          Hafiz Ikram Bin Husni Shariff
-                          <br />
-                          Ahmad Bin Zainul Abidin
-                          <br />
-                          Nor Hazrien Bin Hamdan
-                          <br />
-                          Mohd Akmal Afiq Bin Nor Effenday
-                          <br />
-                          Mior Mohd Sabri bin Safian
-                          <br />
-                          Muhammad Akmal Mukmin bin Iqhbal
-                          <br />
-                          Amir Izzat Bin Kamil
-                          <br />
-                          <br />
-                          Below:
-                          <br />
-                          Mr. Amir Sharizam bin Ismail with our first robot:
-                          GERONEETA
-                        </p>
-                      </Col>
-                    </Row>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+          <Row className="justify-content-md-center"></Row>
           <br />
           <Row>
             <Col>
@@ -221,10 +173,11 @@ export default class AboutUs extends React.Component {
                 <Card.Body>
                   <Card.Title>
                     <h2 className="about-text-center">Location</h2>
+                    <br />
                   </Card.Title>
                   <Card.Text>
                     <Row>
-                      <Col md="5">
+                      <Col lg="5">
                         <p>
                           Address:
                           <br />

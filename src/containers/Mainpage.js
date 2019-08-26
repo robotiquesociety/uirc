@@ -5,9 +5,15 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import robattle from "../images/robattle.jpg";
-import mainBG from "../images/mainBG.jpg";
-import engcPic from "../images/engc4.jpeg";
+import robattle from "../assets/images/robattle.jpg";
+import lifo from "../assets/images/liforobot.JPG";
+import main1 from "../assets/images/main1.JPG";
+import main2 from "../assets/images/main2.JPG";
+import main3 from "../assets/images/main3.JPG";
+import main4 from "../assets/images/main4.JPG";
+import robotcombat from "../assets/images/robotcombat.jpg";
+import mainBG from "../assets/images/mainBG.jpg";
+import engcPic from "../assets/images/engc4.jpeg";
 import TopBanner from "../components/TopBanner.js";
 import Countdown from "../components/Countdown.js";
 import "./Mainpage.css";
@@ -54,16 +60,16 @@ class Mainpage extends React.Component {
         <Countdown date={`${year}-11-02T00:00:00Z`} />
         <br />
         <Container fluid>
-          <Row className="justify-content-md-center">
-            <Col md="8">
+          <Row className="justify-content-lg-center">
+            <Col lg="8">
               <Row>
                 <Col>
                   <div className="my-card">
                     <Row>
-                      <Col md="4">
+                      <Col md="5">
                         <img
                           className="d-block img-main"
-                          src={robattle}
+                          src={robotcombat}
                           alt="Third slide"
                         />
                       </Col>
@@ -89,10 +95,10 @@ class Mainpage extends React.Component {
                 <Col>
                   <div className="my-card">
                     <Row>
-                      <Col md="4">
+                      <Col md="5">
                         <img
                           className="d-block img-main"
-                          src={robattle}
+                          src={lifo}
                           alt="Third slide"
                         />
                       </Col>
@@ -120,7 +126,7 @@ class Mainpage extends React.Component {
                 <Col>
                   <div className="my-card">
                     <Row>
-                      <Col md="4">
+                      <Col md="5">
                       <img
                           className="d-block img-main"
                           src={engcPic}
@@ -145,28 +151,35 @@ class Mainpage extends React.Component {
                 </Col>
               </Row>
             </Col>
-            <Col md="4">
+            <Col lg="4">
               <Row>
                 <Col>
                   <Carousel interval="3000">
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src={robattle}
+                        src={main1}
                         alt="First slide"
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src={robattle}
+                        src={main2}
                         alt="Third slide"
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src={robattle}
+                        src={main3}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100"
+                        src={main4}
                         alt="Third slide"
                       />
                     </Carousel.Item>

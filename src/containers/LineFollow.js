@@ -6,9 +6,13 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Carousel from "react-bootstrap/Carousel";
-import robattle from "../images/robattle.jpg";
+import robattle from "../assets/images/robattle.jpg";
+import lifo1 from "../assets/images/lifo1.JPG";
+import lifo2 from "../assets/images/lifo2.JPG";
+import lifo3 from "../assets/images/lifo3.JPG";
+import lifo4 from "../assets/images/lifo4.JPG";
 import { FaWhatsapp } from "react-icons/fa";
-import mainBG from "../images/mainBG.jpg";
+import mainBG from "../assets/images/mainBG.jpg";
 import TopBanner from "../components/TopBanner.js";
 import "./LineFollow.css";
 
@@ -39,28 +43,81 @@ export default class LineFollow extends React.Component {
               <Row>
                 <Col>
                   <Card>
-                    <Card.Header>Prizes</Card.Header>
+                    <Card.Header>School (SK) Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> TBA
+                        <b>Champion:</b> RM 250
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           1<sup>st</sup> Runner-Up:
                         </b>{" "}
-                        TBA
+                        RM 150
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           2<sup>nd</sup> Runner-Up:
                         </b>{" "}
-                        TBA
+                        RM 50
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> TBA
+                        <b>Best Design Award:</b> RM 50
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card>
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Card>
+                    <Card.Header>School (SMK) Category Prizes</Card.Header>
+                    <ListGroup variant="flush">
+                      <ListGroup.Item>
+                        <b>Champion:</b> RM 250
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Technology Award:</b> TBA
+                        <b>
+                          1<sup>st</sup> Runner-Up:
+                        </b>{" "}
+                        RM 150
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>
+                          2<sup>nd</sup> Runner-Up:
+                        </b>{" "}
+                        RM 50
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>Best Design Award:</b> RM 50
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card>
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Card>
+                    <Card.Header>Open Category Prizes</Card.Header>
+                    <ListGroup variant="flush">
+                      <ListGroup.Item>
+                        <b>Champion:</b> RM 300
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>
+                          1<sup>st</sup> Runner-Up:
+                        </b>{" "}
+                        RM 200
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>
+                          2<sup>nd</sup> Runner-Up:
+                        </b>{" "}
+                        RM 100
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>Best Design Award:</b> RM 100
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -74,21 +131,28 @@ export default class LineFollow extends React.Component {
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src={robattle}
+                        src={lifo1}
                         alt="First slide"
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src={robattle}
+                        src={lifo2}
                         alt="Third slide"
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src={robattle}
+                        src={lifo3}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100"
+                        src={lifo4}
                         alt="Third slide"
                       />
                     </Carousel.Item>

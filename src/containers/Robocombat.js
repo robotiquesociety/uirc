@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FaWhatsapp } from "react-icons/fa";
-import mainBG from "../images/mainBG.jpg";
+import mainBG from "../assets/images/mainBG.jpg";
 import TopBanner from "../components/TopBanner.js";
 import RoboCombatPics from "../components/RoboCombatPics";
 import "./Robocombat.css";

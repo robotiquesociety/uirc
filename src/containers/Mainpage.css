@@ -8,6 +8,8 @@
   padding-top: 30px;
   height: 100%;
   object-fit: cover;
+  max-height: 350px;
+  margin: 0 auto;
   /* object-position: 2px; */
 }
 

@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FaWhatsapp } from "react-icons/fa";
 import EngCPictures from "../components/EngCPictures";
-import mainBG from "../images/engcBG.jpg";
+import mainBG from "../assets/images/engcBG.jpg";
 import TopBanner from "../components/TopBanner.js";
 import "./EngChallenge.css";
 
@@ -35,13 +35,29 @@ export default class EngChallenge extends React.Component {
               <Row>
                 <Col>
                   <Card>
-                    <Card.Header>Prizes</Card.Header>
+                    <Card.Header>SK Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> TBA
+                        <b>Champion:</b> RM 200
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> TBA
+                        <b>Best Design Award:</b> RM 50
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card>
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <Card>
+                    <Card.Header>SMK Category Prizes</Card.Header>
+                    <ListGroup variant="flush">
+                      <ListGroup.Item>
+                        <b>Champion:</b> RM 200
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>Best Design Award:</b> RM 50
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

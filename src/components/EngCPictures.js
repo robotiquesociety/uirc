@@ -1,12 +1,12 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import engc1 from "../images/engc1.jpeg"
-import engc2 from "../images/engc2.jpeg"
-import engc3 from "../images/engc3.jpeg"
-import engc4 from "../images/engc4.jpeg"
-import engc5 from "../images/engc5.jpeg"
-import engc6 from "../images/engc6.jpeg"
-import engc7 from "../images/engc7.jpeg"
+import engc1 from "../assets/images/engc1.jpeg"
+import engc2 from "../assets/images/engc2.jpeg"
+import engc3 from "../assets/images/engc3.jpeg"
+import engc4 from "../assets/images/engc4.jpeg"
+import engc5 from "../assets/images/engc5.jpeg"
+import engc6 from "../assets/images/engc6.jpeg"
+import engc7 from "../assets/images/engc7.jpeg"
 import './EngCPictures.css'
 
 export default class EngCPictures extends React.Component {

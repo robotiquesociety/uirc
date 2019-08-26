@@ -16,7 +16,7 @@ function mapsSelector() {
       window.open("https://maps.google.com/maps?daddr="+coords.lat+","+coords.lng+"&amp;ll=");
   }
 
-const params = { v: "3.exp", key: "AIzaSyBC2_95XCCaf5AOTc_C1DKe3D0yVXmg3Jc" };
+const params = { v: "3.exp", key: "AIzaSyA-lJJ5Slx-TfNvcCgrVF9_HaK2OWAmkH8" };
 
 export default class Gmap extends React.Component {
 

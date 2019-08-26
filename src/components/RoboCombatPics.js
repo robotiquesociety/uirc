@@ -1,15 +1,15 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import pic1 from "../images/robachamp.jpg"
-import pic2 from "../images/roba2nd.jpg"
-import pic3 from "../images/roba3rd.jpg"
-import pic4 from "../images/roba4th.jpg"
-import pic5 from "../images/robadesign.jpg"
-import pic6 from "../images/robatech.jpg"
-import pic7 from "../images/roba7.jpg"
-import pic8 from "../images/roba8.jpg"
-import pic9 from "../images/roba9.jpg"
-import pic10 from "../images/roba10.jpg"
+import pic1 from "../assets/images/robachamp.jpg"
+import pic2 from "../assets/images/roba2nd.jpg"
+import pic3 from "../assets/images/roba3rd.jpg"
+import pic4 from "../assets/images/roba4th.jpg"
+import pic5 from "../assets/images/robadesign.jpg"
+import pic6 from "../assets/images/robatech.jpg"
+import pic7 from "../assets/images/roba7.jpg"
+import pic8 from "../assets/images/roba8.jpg"
+import pic9 from "../assets/images/roba9.jpg"
+import pic10 from "../assets/images/roba10.jpg"
 import './EngCPictures.css'
 
 export default class RoboCombatPics extends React.Component {
