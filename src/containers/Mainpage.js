@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import robattle from "../assets/images/robattle.jpg";
 import lifo from "../assets/images/liforobot.JPG";
 import main1 from "../assets/images/main1.JPG";
 import main2 from "../assets/images/main2.JPG";

@@ -87,7 +87,7 @@ const Links = observer(
             variant="dark"
           >
             <Navbar.Brand href="#" onClick={this.gotoHome}>
-              RS-LOGO
+              Robotique Society
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -132,7 +132,7 @@ const Links = observer(
           {link}
           <br />
           <Container fluid className="footer">
-            <FaRegCopyright className="footer-icon" /> Robotique Society 2019  syahmi-san production.
+            <FaRegCopyright className="footer-icon" /> Robotique Society 2019
           </Container>
         </div>
       );

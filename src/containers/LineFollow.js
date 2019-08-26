@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Carousel from "react-bootstrap/Carousel";
-import robattle from "../assets/images/robattle.jpg";
 import lifo1 from "../assets/images/lifo1.JPG";
 import lifo2 from "../assets/images/lifo2.JPG";
 import lifo3 from "../assets/images/lifo3.JPG";
