@@ -1,0 +1,15 @@
+.body {
+  background-color: #e7e7e7;
+}
+
+.footer {
+  background-color: #343a40;
+  height: 40px;
+  text-align: center;
+  color: #e7e7e7;
+  padding-top: 5px;
+}
+
+.footer-icon {
+  padding-bottom: 3px;
+}

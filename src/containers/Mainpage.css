@@ -1,0 +1,22 @@
+.my-card {
+  background-color: white;
+  padding: 10px 10px;
+}
+
+.img-main {
+  max-width: 100%;
+  padding-top: 30px;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: 2px; */
+}
+
+.editted-script {
+  font-family: Ariel;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.editted-script-2 {
+  font-style: italic;
+}

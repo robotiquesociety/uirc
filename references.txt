@@ -1,0 +1,21 @@
+React + Mobx + Firebase
+https://www.robinwieruch.de/react-firebase-mobx-tutorial/
+
+Mobx + React Context
+https://stackoverflow.com/questions/54263228/access-stores-from-class-using-mobx-and-react-context
+
+Mobx doc1
+https://mobx.js.org/refguide/modifiers.html
+
+Mobx doc2
+https://github.com/mobxjs/mobx-react
+
+Open Gmap in native app from browser
+https://medium.com/@colinlord/opening-native-map-apps-from-the-mobile-browser-afd66fbbb8a4
+
+Create component with children
+https://reactjs.org/docs/composition-vs-inheritance.html
+
+Countdown
+https://medium.com/@kristin_baumann/react-countdown-6455838b6faf
+

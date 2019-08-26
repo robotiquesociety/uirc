@@ -1,0 +1,13 @@
+.jumbotron {
+  background-color: #e7e7e7;
+}
+
+.comp-desc {
+  line-height: 220%;
+  max-width: 780px;
+  font-size: 18px;
+  color: #ebebeb;
+  text-shadow: 0px 2px 6px #000, 0px 2px 6px #000;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+}
