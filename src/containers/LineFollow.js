@@ -212,7 +212,7 @@ export default class LineFollow extends React.Component {
                       <br /><br />
                       <Button
                         variant="primary"
-                        href="https://forms.gle/JHB54ZR7bPFhXb2W6"
+                        href="https://forms.gle/bg5DeCzBDDZrHKTs6"
                       >
                         School Category (SMK)
                       </Button>
