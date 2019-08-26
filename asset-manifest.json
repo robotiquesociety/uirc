@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/uirc/static/css/main.99a8067e.chunk.css",
-    "main.js": "/uirc/static/js/main.972b291d.chunk.js",
-    "main.js.map": "/uirc/static/js/main.972b291d.chunk.js.map",
+    "main.css": "/uirc/static/css/main.b49947ce.chunk.css",
+    "main.js": "/uirc/static/js/main.6b3217a6.chunk.js",
+    "main.js.map": "/uirc/static/js/main.6b3217a6.chunk.js.map",
     "runtime~main.js": "/uirc/static/js/runtime~main.f94ceb8e.js",
     "runtime~main.js.map": "/uirc/static/js/runtime~main.f94ceb8e.js.map",
-    "static/js/2.95aa4dee.chunk.js": "/uirc/static/js/2.95aa4dee.chunk.js",
-    "static/js/2.95aa4dee.chunk.js.map": "/uirc/static/js/2.95aa4dee.chunk.js.map",
+    "static/js/2.23d689e6.chunk.js": "/uirc/static/js/2.23d689e6.chunk.js",
+    "static/js/2.23d689e6.chunk.js.map": "/uirc/static/js/2.23d689e6.chunk.js.map",
     "index.html": "/uirc/index.html",
-    "precache-manifest.5d6eab5a19755b312ebad650836ea167.js": "/uirc/precache-manifest.5d6eab5a19755b312ebad650836ea167.js",
+    "precache-manifest.28d0c9ec2a1f0c6dfe209fd3db2c9092.js": "/uirc/precache-manifest.28d0c9ec2a1f0c6dfe209fd3db2c9092.js",
     "service-worker.js": "/uirc/service-worker.js",
-    "static/css/main.99a8067e.chunk.css.map": "/uirc/static/css/main.99a8067e.chunk.css.map",
+    "static/css/main.b49947ce.chunk.css.map": "/uirc/static/css/main.b49947ce.chunk.css.map",
     "static/media/about.png": "/uirc/static/media/about.1de08d0d.png",
     "static/media/cheamer.jpg": "/uirc/static/media/cheamer.ff14c4f4.jpg",
     "static/media/engc1.jpeg": "/uirc/static/media/engc1.7607ba22.jpeg",
@@ -21,7 +21,16 @@
     "static/media/engc6.jpeg": "/uirc/static/media/engc6.c863f11e.jpeg",
     "static/media/engc7.jpeg": "/uirc/static/media/engc7.226a9311.jpeg",
     "static/media/engcBG.jpg": "/uirc/static/media/engcBG.4ec97610.jpg",
+    "static/media/lifo1.JPG": "/uirc/static/media/lifo1.be0b93a5.JPG",
+    "static/media/lifo2.JPG": "/uirc/static/media/lifo2.2ffd35c0.JPG",
+    "static/media/lifo3.JPG": "/uirc/static/media/lifo3.9ffdf17b.JPG",
+    "static/media/lifo4.JPG": "/uirc/static/media/lifo4.5c5adce3.JPG",
+    "static/media/liforobot.JPG": "/uirc/static/media/liforobot.5741e0c2.JPG",
     "static/media/list_of_hotels_and_homestay_3.pdf": "/uirc/static/media/list_of_hotels_and_homestay_3.b16895b5.pdf",
+    "static/media/main1.JPG": "/uirc/static/media/main1.8560e1c8.JPG",
+    "static/media/main2.JPG": "/uirc/static/media/main2.263414ab.JPG",
+    "static/media/main3.JPG": "/uirc/static/media/main3.89ce632f.JPG",
+    "static/media/main4.JPG": "/uirc/static/media/main4.cbdc391e.JPG",
     "static/media/mainBG.jpg": "/uirc/static/media/mainBG.54984d5a.jpg",
     "static/media/roba10.jpg": "/uirc/static/media/roba10.f24b1515.jpg",
     "static/media/roba2nd.jpg": "/uirc/static/media/roba2nd.1d781872.jpg",
@@ -33,6 +42,6 @@
     "static/media/robachamp.jpg": "/uirc/static/media/robachamp.9f7a417f.jpg",
     "static/media/robadesign.jpg": "/uirc/static/media/robadesign.106dffe2.jpg",
     "static/media/robatech.jpg": "/uirc/static/media/robatech.6f6b8b8c.jpg",
-    "static/media/robattle.jpg": "/uirc/static/media/robattle.2fcbc2cd.jpg"
+    "static/media/robotcombat.jpg": "/uirc/static/media/robotcombat.cc5d22f3.jpg"
   }
 }
