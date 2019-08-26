@@ -17,8 +17,18 @@
   font-family: Ariel;
   font-size: xx-large;
   font-weight: bold;
+  text-align: center;
 }
 
 .editted-script-2 {
   font-style: italic;
+  text-align: center;
+}
+
+.justify-main {
+  text-align: justify;
+}
+
+.justify-end-main {
+  float: right;
 }

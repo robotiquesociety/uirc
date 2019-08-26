@@ -59,10 +59,11 @@ class Mainpage extends React.Component {
         <Countdown date={`${year}-11-02T00:00:00Z`} />
         <br />
         <Container fluid>
-          <Row className="justify-content-lg-center">
+          <Row className="justify-main">
             <Col lg="8">
               <Row>
                 <Col>
+                <br />
                   <div className="my-card">
                     <Row>
                       <Col md="5">
@@ -83,7 +84,7 @@ class Mainpage extends React.Component {
                             Does your robot satisfy that criteria? Show us what you and your robot(s) are capable off 
                             by winning the game. We await your accomplishments.
                         </p>
-                        <Button variant="primary" onClick={this.gotoCombat}>More Informations...</Button>
+                        <Button className="justify-end-main" variant="primary" onClick={this.gotoCombat}>More Informations...</Button>
                       </Col>
                     </Row>
                   </div>
@@ -114,7 +115,7 @@ class Mainpage extends React.Component {
                           Challenge your knowledge in mechanical, programming and Critical Thinking skills. 
                           We await your achievements.
                         </p>
-                        <Button variant="primary" onClick={this.gotoLifo}>More Informations...</Button>
+                        <Button className="justify-end-main" variant="primary" onClick={this.gotoLifo}>More Informations...</Button>
                       </Col>
                     </Row>
                   </div>
@@ -143,7 +144,7 @@ class Mainpage extends React.Component {
                           Test your limit as an engineer and improve yourself. Think outside the box?  
                           No! Think outside this world. Participate now and claim your position on the seat of GREATNESS. Surprise Us!
                         </p>
-                        <Button variant="primary" onClick={this.gotoEngChallenge}>More Informations...</Button>
+                        <Button className="justify-end-main" variant="primary" onClick={this.gotoEngChallenge}>More Informations...</Button>
                       </Col>
                     </Row>
                   </div>
@@ -151,6 +152,7 @@ class Mainpage extends React.Component {
               </Row>
             </Col>
             <Col lg="4">
+              <br />
               <Row>
                 <Col>
                   <Carousel interval="3000">
