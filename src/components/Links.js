@@ -13,6 +13,7 @@ import AboutUs from "../containers/AboutUs";
 import Accomodation from "../containers/Accomodation";
 import LineFollow from "../containers/LineFollow";
 import EngChallenge from "../containers/EngChallenge";
+import navLogo from "../assets/images/navbarlogo.svg"
 
 const Links = observer(
   class Links extends React.Component {
@@ -64,9 +65,9 @@ const Links = observer(
         case "lifo":
           link = <LineFollow />;
           break;
-          case "engc":
-            link = <EngChallenge />;
-            break;
+        case "engc":
+          link = <EngChallenge />;
+          break;
         case "accomodation":
           link = <Accomodation />;
           break;
@@ -87,7 +88,15 @@ const Links = observer(
             variant="dark"
           >
             <Navbar.Brand href="#" onClick={this.gotoHome}>
-              Robotique Society
+              <img
+                alt="RS-LOGO"
+                src={navLogo}
+                width="56"
+                height="56"
+                className="d-inline-block align-top"
+              />
+              <div>Helllooo</div>
+              {' Robotique Society'}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
