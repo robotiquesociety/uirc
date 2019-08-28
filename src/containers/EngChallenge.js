@@ -20,6 +20,7 @@ export default class EngChallenge extends React.Component {
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col md="6" lg="7">
+            <br />
               <Row>
                 <Col>
                   <Card body>
@@ -65,6 +66,7 @@ export default class EngChallenge extends React.Component {
               </Row>
             </Col>
             <Col md="6" lg="5">
+            <br />
               <Row>
                 <Col>
                   <EngCPictures/>

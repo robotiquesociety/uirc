@@ -88,15 +88,14 @@ const Links = observer(
             variant="dark"
           >
             <Navbar.Brand href="#" onClick={this.gotoHome}>
-              <img
+              <div><img
                 alt="RS-LOGO"
                 src={navLogo}
                 width="56"
                 height="56"
                 className="d-inline-block align-top"
               />
-              <div>Helllooo</div>
-              {' Robotique Society'}
+              <p className="logo-text">Robotique Society</p></div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

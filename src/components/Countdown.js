@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import "./Countdown.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 // PropTypes is undefined
 // https://stackoverflow.com/questions/45692537/proptypes-is-not-defined
@@ -85,35 +88,61 @@ class Countdown extends Component {
     const countDown = this.state;
 
     return (
-      <div className="Countdown">
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.days)}</strong>
-            <span>{countDown.days === 1 ? "Day" : "Days"}</span>
-          </span>
-        </span>
-
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.hours)}</strong>
-            <span>Hours</span>
-          </span>
-        </span>
-
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.min)}</strong>
-            <span>Min</span>
-          </span>
-        </span>
-
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong>{this.addLeadingZeros(countDown.sec)}</strong>
-            <span>Sec</span>
-          </span>
-        </span>
-      </div>
+      <Container>
+        <br />
+        <Row className="justify-content-xs-center Countdown-col-element">
+          <Col md></Col>
+          <Col   className="cdBG">
+            <Row>
+              <Col>
+                <strong>{this.addLeadingZeros(countDown.days)}</strong>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <span>{countDown.days === 1 ? "Day" : "Days"}</span>
+              </Col>
+            </Row>
+          </Col>
+          <Col   className="cdBG">
+            <Row>
+              <Col>
+              <strong>{this.addLeadingZeros(countDown.hours)}</strong>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+              <span>Hours</span>
+              </Col>
+            </Row>
+          </Col>
+          <Col   className="cdBG">
+            <Row>
+              <Col>
+              <strong>{this.addLeadingZeros(countDown.min)}</strong>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+              <span>Min</span>
+              </Col>
+            </Row>
+          </Col>
+          <Col   className="cdBG">
+            <Row>
+              <Col>
+              <strong>{this.addLeadingZeros(countDown.sec)}</strong>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+              <span>Sec</span>
+              </Col>
+            </Row>
+          </Col>
+          <Col md></Col>
+        </Row>
+      </Container>
     );
   }
 }

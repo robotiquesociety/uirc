@@ -26,6 +26,7 @@ export default class LineFollow extends React.Component {
             <Col md="6" lg="7">
               <Row>
                 <Col>
+                <br />
                   <Card body>
                     <h1 style={{ color: "#a62124" }}>Line Following Robot</h1>
                     <br />
@@ -126,6 +127,7 @@ export default class LineFollow extends React.Component {
             <Col md="6" lg="5">
               <Row>
                 <Col>
+                <br />
                   <Carousel interval="3000">
                     <Carousel.Item>
                       <img
