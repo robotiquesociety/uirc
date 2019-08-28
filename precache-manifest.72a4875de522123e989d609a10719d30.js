@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fee8b31b4855a32fb6d3549908b096b",
+    "revision": "fc188873e19bcb1c1f5c60629e0f2c66",
     "url": "/uirc/index.html"
   },
   {
-    "revision": "9bb3de567fe4a4ceef2e",
-    "url": "/uirc/static/css/main.b49947ce.chunk.css"
+    "revision": "60741302e11ffb18be13",
+    "url": "/uirc/static/css/main.c64b784d.chunk.css"
   },
   {
-    "revision": "055c8755c6183ad60a35",
-    "url": "/uirc/static/js/2.23d689e6.chunk.js"
+    "revision": "4a98777eb67a227c1982",
+    "url": "/uirc/static/js/2.3158dc20.chunk.js"
   },
   {
-    "revision": "9bb3de567fe4a4ceef2e",
-    "url": "/uirc/static/js/main.6b3217a6.chunk.js"
+    "revision": "60741302e11ffb18be13",
+    "url": "/uirc/static/js/main.1f4868d7.chunk.js"
   },
   {
     "revision": "4e1983c005b6348b6c74",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "54984d5a4c6b98686de430d6d196ba1d",
     "url": "/uirc/static/media/mainBG.54984d5a.jpg"
+  },
+  {
+    "revision": "ae5dae63157f0ed209d7b8c31429b52c",
+    "url": "/uirc/static/media/navbarlogo.ae5dae63.svg"
   },
   {
     "revision": "f24b15158c009db2c4251b0b8b3b611c",
