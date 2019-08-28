@@ -220,15 +220,6 @@ class Mainpage extends React.Component {
                           <FaWhatsapp /> 019-904 5906
                         </p>
                       </ListGroup.Item>
-                      <ListGroup.Item>
-                        <p>
-                          <b>Registration Unit</b>
-                          <br />
-                          <FaIdBadge /> Nasrullah
-                          <br />
-                          <FaWhatsapp /> 019-904 5906
-                        </p>
-                      </ListGroup.Item>
                     </ListGroup>
                     <Card.Body>
                       <Button
