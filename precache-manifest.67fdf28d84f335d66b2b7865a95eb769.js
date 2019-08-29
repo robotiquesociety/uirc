@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "482ccc166018fadc02121105f2e9d7b6",
+    "revision": "e351fd79472436cf198f36d38e4b8f23",
     "url": "/uirc/index.html"
   },
   {
-    "revision": "0fbe80fe34380092c6bb",
-    "url": "/uirc/static/css/main.5486b18b.chunk.css"
+    "revision": "f20a9cc7a9940d3e9c7d",
+    "url": "/uirc/static/css/main.2a80baf4.chunk.css"
   },
   {
-    "revision": "4bc5771e2c354091269f",
-    "url": "/uirc/static/js/2.50af4d7f.chunk.js"
+    "revision": "e2fc124901144e1d39b8",
+    "url": "/uirc/static/js/2.a00688c4.chunk.js"
   },
   {
-    "revision": "0fbe80fe34380092c6bb",
-    "url": "/uirc/static/js/main.39106bde.chunk.js"
+    "revision": "f20a9cc7a9940d3e9c7d",
+    "url": "/uirc/static/js/main.8776f8a6.chunk.js"
   },
   {
     "revision": "4e1983c005b6348b6c74",
@@ -84,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uirc/static/media/list_of_hotels_and_homestay_3.b16895b5.pdf"
   },
   {
+    "revision": "c4327564c9aed498a066e82f24f1aca7",
+    "url": "/uirc/static/media/logouirc.c4327564.png"
+  },
+  {
     "revision": "8560e1c82538a3c546235a540b004fa8",
     "url": "/uirc/static/media/main1.8560e1c8.JPG"
   },
@@ -102,10 +106,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "54984d5a4c6b98686de430d6d196ba1d",
     "url": "/uirc/static/media/mainBG.54984d5a.jpg"
-  },
-  {
-    "revision": "ae5dae63157f0ed209d7b8c31429b52c",
-    "url": "/uirc/static/media/navbarlogo.ae5dae63.svg"
   },
   {
     "revision": "f24b15158c009db2c4251b0b8b3b611c",
