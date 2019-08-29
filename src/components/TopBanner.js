@@ -11,6 +11,11 @@ export default class TopBanner extends React.Component {
       <Container fluid>
         <Row>
           <Col>
+            <div className="banner-gap"></div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
             <Card className="bg-dark text-white justify-overlay">
               <Card.Img src={this.props.src} alt="Card image" className="poster-img" />
               <div className="img-overlay">

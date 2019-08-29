@@ -13,7 +13,7 @@ import AboutUs from "../containers/AboutUs";
 import Accomodation from "../containers/Accomodation";
 import LineFollow from "../containers/LineFollow";
 import EngChallenge from "../containers/EngChallenge";
-import navLogo from "../assets/images/navbarlogo.svg"
+import navLogo from "../assets/images/logouirc.png"
 
 const Links = observer(
   class Links extends React.Component {
@@ -88,14 +88,13 @@ const Links = observer(
             variant="dark"
           >
             <Navbar.Brand href="#" onClick={this.gotoHome}>
-              <div><img
+              <img
                 alt="RS-LOGO"
                 src={navLogo}
-                width="56"
+                width="200"
                 height="56"
                 className="d-inline-block align-top"
               />
-              <p className="logo-text">Robotique Society</p></div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
