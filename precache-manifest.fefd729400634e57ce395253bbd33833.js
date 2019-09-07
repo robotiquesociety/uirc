@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e351fd79472436cf198f36d38e4b8f23",
+    "revision": "03965ebd110ab64714aabed776a386da",
     "url": "/uirc/index.html"
   },
   {
-    "revision": "f20a9cc7a9940d3e9c7d",
-    "url": "/uirc/static/css/main.2a80baf4.chunk.css"
+    "revision": "bc30acd1553193d65cd1",
+    "url": "/uirc/static/css/main.3e245a3a.chunk.css"
   },
   {
-    "revision": "e2fc124901144e1d39b8",
-    "url": "/uirc/static/js/2.a00688c4.chunk.js"
+    "revision": "a9c01c60385d2bd6e930",
+    "url": "/uirc/static/js/2.ce4696af.chunk.js"
   },
   {
-    "revision": "f20a9cc7a9940d3e9c7d",
-    "url": "/uirc/static/js/main.8776f8a6.chunk.js"
+    "revision": "bc30acd1553193d65cd1",
+    "url": "/uirc/static/js/main.dfb386ad.chunk.js"
   },
   {
     "revision": "4e1983c005b6348b6c74",
     "url": "/uirc/static/js/runtime~main.f94ceb8e.js"
+  },
+  {
+    "revision": "73527bc3a4df8a8a4b32ba898c0ae1e2",
+    "url": "/uirc/static/media/Peraturan_UIRC_Bridge_Challenge.73527bc3.pdf"
   },
   {
     "revision": "1de08d0d960f3fce9e2b46330aa7c5ca",
