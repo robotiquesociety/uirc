@@ -6,22 +6,25 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./Accomodation.css";
 import Gmap from "../components/Gmap.js";
-import PDFList from "../assets/list_of_hotels_and_homestay_3.pdf"
+import PDFList from "../assets/list_of_hotels_and_homestay_3.pdf";
 import mainBG from "../assets/images/mainBG.jpg";
 import TopBanner from "../components/TopBanner.js";
 
 export default class Accomodation extends React.Component {
   render() {
     return (
-      <div><TopBanner src={mainBG} />
-      <br />
+      <div>
+        <TopBanner src={mainBG} />
+        <br />
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col md="8">
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    <h4 className="about-text-center">LIST OF HOMESTAY AROUND BANGI</h4>
+                    <h4 className="about-text-center">
+                      LIST OF HOMESTAY AROUND BANGI
+                    </h4>
                   </Card.Title>
                   <Card.Text>
                     <table>
@@ -40,7 +43,12 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="https://sites.google.com/site/omairahomestaybangi/">https://sites.google.com/site/omairahomestaybangi/</Button>
+                          <Button
+                            variant="link"
+                            href="https://sites.google.com/site/omairahomestaybangi/"
+                          >
+                            https://sites.google.com/site/omairahomestaybangi/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -55,13 +63,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        No 26, Jln 8/31A, Seksyen 8, Bandar Baru Bangi, Selangor.
+                          No 26, Jln 8/31A, Seksyen 8, Bandar Baru Bangi,
+                          Selangor.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="https://sites.google.com/site/omairahomestaybangi/omaira-2">https://sites.google.com/site/omairahomestaybangi/omaira-2</Button>
+                          <Button
+                            variant="link"
+                            href="https://sites.google.com/site/omairahomestaybangi/omaira-2"
+                          >
+                            https://sites.google.com/site/omairahomestaybangi/omaira-2
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -76,14 +90,13 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Taman Seri Bangi seksyen 8 43650, Bandar Baru Bangi Selangor.
+                          Taman Seri Bangi seksyen 8 43650, Bandar Baru Bangi
+                          Selangor.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -97,14 +110,13 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Apartment Melor Seksyen 5, 43650, Bandar Baru Bangi, Selangor.
+                          Apartment Melor Seksyen 5, 43650, Bandar Baru Bangi,
+                          Selangor.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -118,14 +130,13 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Taman Seri Bangi, Seksyen 8, 43650, Bandar Baru Bangi Selangor.
+                          Taman Seri Bangi, Seksyen 8, 43650, Bandar Baru Bangi
+                          Selangor.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -139,14 +150,13 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Seksyen 16, Fasa 1 Bandar Baru Bangi, 43650 Kajang Selangor.
+                          Seksyen 16, Fasa 1 Bandar Baru Bangi, 43650 Kajang
+                          Selangor.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -160,14 +170,13 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Lot 3105 Kampung Sungai Merab Luar, 43650, Bandar Baru Bangi Selangor.
+                          Lot 3105 Kampung Sungai Merab Luar, 43650, Bandar Baru
+                          Bangi Selangor.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -177,11 +186,13 @@ export default class Accomodation extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <br/>
+              <br />
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    <h4 className="about-text-center">LIST OF HOTEL IN AROUND BANGI AND KAJANG</h4>
+                    <h4 className="about-text-center">
+                      LIST OF HOTEL IN AROUND BANGI AND KAJANG
+                    </h4>
                   </Card.Title>
                   <Card.Text>
                     <table>
@@ -193,13 +204,18 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        No 13, Jalan 15/1B, Seksyen 15, 43650 Bangi, Malaysia.
+                          No 13, Jalan 15/1B, Seksyen 15, 43650 Bangi, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.cityboutiquehotel.com.my/bangi/">http://www.cityboutiquehotel.com.my/bangi/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.cityboutiquehotel.com.my/bangi/"
+                          >
+                            http://www.cityboutiquehotel.com.my/bangi/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -218,13 +234,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        No 1-2, Jalan Seri Putra 1/4, Bandar Seri Putra, 43000 Kajang, Malaysia.
+                          No 1-2, Jalan Seri Putra 1/4, Bandar Seri Putra, 43000
+                          Kajang, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://seriputra.myhotels.com.my/">http://seriputra.myhotels.com.my/</Button>
+                          <Button
+                            variant="link"
+                            href="http://seriputra.myhotels.com.my/"
+                          >
+                            http://seriputra.myhotels.com.my/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -243,13 +265,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Off Persiaran Bandar Bandar Baru Bangi Selangor 43650 Malaysia.
+                          Off Persiaran Bandar Bandar Baru Bangi Selangor 43650
+                          Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.hotelbangi-putrajaya.com/">http://www.hotelbangi-putrajaya.com/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.hotelbangi-putrajaya.com/"
+                          >
+                            http://www.hotelbangi-putrajaya.com/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -268,13 +296,20 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        C-01-G, Plaza Paragon Point, Jalan Medan Pusat Bandar 5, Pusat Bandar Baru Bangi, 43650 Kampong Sungai Ramal Dalam, Malaysia.
+                          C-01-G, Plaza Paragon Point, Jalan Medan Pusat Bandar
+                          5, Pusat Bandar Baru Bangi, 43650 Kampong Sungai Ramal
+                          Dalam, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.9squarehotel.com/">http://www.9squarehotel.com/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.9squarehotel.com/"
+                          >
+                            http://www.9squarehotel.com/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -293,13 +328,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        21 &amp; 23, Jalan Medan Pusat 2D, Persiaran Bangi, Bandar Baru Bangi, Selangor, 43650, Malaysia.
+                          21 &amp; 23, Jalan Medan Pusat 2D, Persiaran Bangi,
+                          Bandar Baru Bangi, Selangor, 43650, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.101hotel.com.my/">http://www.101hotel.com.my/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.101hotel.com.my/"
+                          >
+                            http://www.101hotel.com.my/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -318,13 +359,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        2-1, JalanPutra 5, Taman Putra Kajang, 43000 Kajang, Selangor Darul Ehsan.
+                          2-1, JalanPutra 5, Taman Putra Kajang, 43000 Kajang,
+                          Selangor Darul Ehsan.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.ecohotel.com.my/">http://www.ecohotel.com.my/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.ecohotel.com.my/"
+                          >
+                            http://www.ecohotel.com.my/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -343,13 +390,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        No. 7, Jalan Hentian 3, Pusat Hentian Kajang, Jalan Reko, Selangor Darul Ehsan.
+                          No. 7, Jalan Hentian 3, Pusat Hentian Kajang, Jalan
+                          Reko, Selangor Darul Ehsan.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.marvelothotel.com/">http://www.marvelothotel.com/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.marvelothotel.com/"
+                          >
+                            http://www.marvelothotel.com/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -368,13 +421,19 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Wisma Metro Kajang, Jalan Semenyih, 43000 Kajang, Malaysia.
+                          Wisma Metro Kajang, Jalan Semenyih, 43000 Kajang,
+                          Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://prescotthotels.asia/Kajang/">http://prescotthotels.asia/Kajang/</Button>
+                          <Button
+                            variant="link"
+                            href="http://prescotthotels.asia/Kajang/"
+                          >
+                            http://prescotthotels.asia/Kajang/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -393,13 +452,18 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Universiti Kebangsaan Malaysia, 43600 Bangi, Malaysia.
+                          Universiti Kebangsaan Malaysia, 43600 Bangi, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.puripujangga.com.my/">http://www.puripujangga.com.my/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.puripujangga.com.my/"
+                          >
+                            http://www.puripujangga.com.my/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -418,14 +482,13 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        1-1, Jalan Reko Sentral 2, Reko Sentral, 43000 Kajang, Malaysia.
+                          1-1, Jalan Reko Sentral 2, Reko Sentral, 43000 Kajang,
+                          Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -443,14 +506,14 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        No. A-9 (Whole Block), A-10-1, A-10-2, A-10-3 Jalan Medan Pusat Bandar 5,Bandar Baru Bangi, Selangor, 43650, Malaysia.
+                          No. A-9 (Whole Block), A-10-1, A-10-2, A-10-3 Jalan
+                          Medan Pusat Bandar 5,Bandar Baru Bangi, Selangor,
+                          43650, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
-                        <td>
-                        -
-                        </td>
+                        <td>-</td>
                       </tr>
                       <tr>
                         <th>Phone Number</th>
@@ -468,13 +531,18 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        Km 7, Jalan IKRAM-UNITEN, 43009 Putrajaya, Malaysia.
+                          Km 7, Jalan IKRAM-UNITEN, 43009 Putrajaya, Malaysia.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://www.rhrhotel.com/">http://www.rhrhotel.com/</Button>
+                          <Button
+                            variant="link"
+                            href="http://www.rhrhotel.com/"
+                          >
+                            http://www.rhrhotel.com/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -493,13 +561,20 @@ export default class Accomodation extends React.Component {
                       <tr>
                         <th>Address</th>
                         <td>
-                        B-2-G, BangiGateway Shopping Complex, Persiaran Pekeliling, Seksyen 15, Bandar Baru Bangi, Putrajaya, Kuala Lumpur, Malaysia 43650.
+                          B-2-G, BangiGateway Shopping Complex, Persiaran
+                          Pekeliling, Seksyen 15, Bandar Baru Bangi, Putrajaya,
+                          Kuala Lumpur, Malaysia 43650.
                         </td>
                       </tr>
                       <tr>
                         <th>Website</th>
                         <td>
-                        <Button variant="link" href="http://bangigatewayhotel.com/">http://bangigatewayhotel.com/</Button>
+                          <Button
+                            variant="link"
+                            href="http://bangigatewayhotel.com/"
+                          >
+                            http://bangigatewayhotel.com/
+                          </Button>
                         </td>
                       </tr>
                       <tr>
@@ -514,30 +589,26 @@ export default class Accomodation extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            
             </Col>
             <Col md="4">
-                <Card>
-                    <Card.Body>
-                        <Card.Text>
-                            <p>View the list of hotels and homestays in pdf:</p>
-                        <Button
-                        variant="primary"
-                        href={PDFList}
-                      >
-                        View
-                      </Button>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-                <br/>
-                <Card>
+              <Card>
+                <Card.Body>
+                  <Card.Text>
+                    <p>View the list of hotels and homestays in pdf:</p>
+                    <Button variant="primary" href={PDFList}>
+                      View
+                    </Button>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              <br />
+              <Card>
                 <Card.Body>
                   <Card.Title>
                     <h3 className="about-text-center">Our Location</h3>
                   </Card.Title>
                   <Card.Text>
-                  <Gmap />
+                    <Gmap />
                   </Card.Text>
                 </Card.Body>
               </Card>

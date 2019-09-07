@@ -9,25 +9,35 @@ import { FaWhatsapp } from "react-icons/fa";
 import EngCPictures from "../components/EngCPictures";
 import mainBG from "../assets/images/engcBG.jpg";
 import TopBanner from "../components/TopBanner.js";
+import PDFRules from "../assets/Peraturan_UIRC_Bridge_Challenge.pdf";
 import "./EngChallenge.css";
 
 export default class EngChallenge extends React.Component {
   render() {
     return (
       <div>
-          <TopBanner src={mainBG} />
+        <TopBanner src={mainBG} />
         <br />
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col md="6" lg="7">
-            <br />
+              <br />
               <Row>
                 <Col>
                   <Card body>
                     <h1 style={{ color: "#a62124" }}>Engineering Challenge</h1>
                     <br />
                     <p>
-                    UniKL MFI Engineering Challenge is an innovation and creativity competition that is created for the primary and secondary school students. In this challenge, students are tasked to solve engineering related challenges. This event will expose students to real life problem and challenges in engineering, and also developing interest in STEM (Science, Technology, Engineering, and Mathematics). UniKL MFI Engineering Challenge is a student-lead event, which runs under UIRC 2019. The event is held on the 2nd and 3rd of November 2019 at Entrepreneur square, UniKL MFI.
+                      UniKL MFI Engineering Challenge is an innovation and
+                      creativity competition that is created for the primary and
+                      secondary school students. In this challenge, students are
+                      tasked to solve engineering related challenges. This event
+                      will expose students to real life problem and challenges
+                      in engineering, and also developing interest in STEM
+                      (Science, Technology, Engineering, and Mathematics). UniKL
+                      MFI Engineering Challenge is a student-lead event, which
+                      runs under UIRC 2019. The event is held on the 2nd and 3rd
+                      of November 2019 at Entrepreneur square, UniKL MFI.
                     </p>
                   </Card>
                 </Col>
@@ -66,10 +76,10 @@ export default class EngChallenge extends React.Component {
               </Row>
             </Col>
             <Col md="6" lg="5">
-            <br />
+              <br />
               <Row>
                 <Col>
-                  <EngCPictures/>
+                  <EngCPictures />
                 </Col>
               </Row>
               <br />
@@ -136,8 +146,8 @@ export default class EngChallenge extends React.Component {
                         <u>Rules &amp; Regulation</u>
                         <br />
                         <br />
-                        <Button variant="secondary" disabled>
-                          Will be updated soon...
+                        <Button variant="primary" href={PDFRules}>
+                          View Rules and Regulation
                         </Button>
                       </ListGroup.Item>
                       <ListGroup.Item>
