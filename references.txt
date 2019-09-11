@@ -33,6 +33,7 @@ Google analytic
 https://medium.com/google-cloud/tracking-site-visits-on-react-app-hosted-in-google-cloud-using-google-analytics-f49c2411d398
 
 Google crawling index
+https://medium.com/@vonkunesnewton/setting-up-your-react-app-for-googles-seo-crawlers-d16b102b0103
 https://www.google.com/webmasters/tools/dashboard?hl=en&sig=ALjLGbObxffroJU1pjkUmSgElrJJxabXYg
     go to google search console site
     add property now
