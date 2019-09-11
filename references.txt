@@ -28,3 +28,6 @@ https://stackoverflow.com/questions/11577147/how-to-fix-http-404-on-github-pages
 
 To make favicon
 https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32x32-or-16x16
+
+Google analytic
+https://medium.com/google-cloud/tracking-site-visits-on-react-app-hosted-in-google-cloud-using-google-analytics-f49c2411d398
