@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/uirc/static/css/main.63e7fecc.chunk.css",
-    "main.js": "/uirc/static/js/main.f2f1eae2.chunk.js",
-    "main.js.map": "/uirc/static/js/main.f2f1eae2.chunk.js.map",
+    "main.css": "/uirc/static/css/main.06ecc8ec.chunk.css",
+    "main.js": "/uirc/static/js/main.b5cf309c.chunk.js",
+    "main.js.map": "/uirc/static/js/main.b5cf309c.chunk.js.map",
     "runtime~main.js": "/uirc/static/js/runtime~main.f94ceb8e.js",
     "runtime~main.js.map": "/uirc/static/js/runtime~main.f94ceb8e.js.map",
-    "static/js/2.ceb91a5a.chunk.js": "/uirc/static/js/2.ceb91a5a.chunk.js",
-    "static/js/2.ceb91a5a.chunk.js.map": "/uirc/static/js/2.ceb91a5a.chunk.js.map",
+    "static/js/2.5d2ad6d2.chunk.js": "/uirc/static/js/2.5d2ad6d2.chunk.js",
+    "static/js/2.5d2ad6d2.chunk.js.map": "/uirc/static/js/2.5d2ad6d2.chunk.js.map",
     "index.html": "/uirc/index.html",
-    "precache-manifest.b39e9505e2a95133ccf924ec28aaa7be.js": "/uirc/precache-manifest.b39e9505e2a95133ccf924ec28aaa7be.js",
+    "precache-manifest.eaee85855acc95ba2ceaedc776d590b4.js": "/uirc/precache-manifest.eaee85855acc95ba2ceaedc776d590b4.js",
     "service-worker.js": "/uirc/service-worker.js",
-    "static/css/main.63e7fecc.chunk.css.map": "/uirc/static/css/main.63e7fecc.chunk.css.map",
+    "static/css/main.06ecc8ec.chunk.css.map": "/uirc/static/css/main.06ecc8ec.chunk.css.map",
     "static/media/Peraturan_UIRC_Bridge_Challenge.pdf": "/uirc/static/media/Peraturan_UIRC_Bridge_Challenge.73527bc3.pdf",
+    "static/media/RnR_LIFO_UIRC_2019.pdf": "/uirc/static/media/RnR_LIFO_UIRC_2019.604bacc7.pdf",
     "static/media/about.png": "/uirc/static/media/about.1de08d0d.png",
     "static/media/cheamer.jpg": "/uirc/static/media/cheamer.ff14c4f4.jpg",
     "static/media/engc1.jpeg": "/uirc/static/media/engc1.7607ba22.jpeg",
@@ -33,7 +34,6 @@
     "static/media/main2.jpg": "/uirc/static/media/main2.13743245.jpg",
     "static/media/main3.jpg": "/uirc/static/media/main3.380aeaae.jpg",
     "static/media/main4.jpg": "/uirc/static/media/main4.8517a120.jpg",
-    "static/media/mainBG.jpg": "/uirc/static/media/mainBG.ebc54716.jpg",
     "static/media/roba10.jpg": "/uirc/static/media/roba10.f24b1515.jpg",
     "static/media/roba2nd.jpg": "/uirc/static/media/roba2nd.1d781872.jpg",
     "static/media/roba3rd.jpg": "/uirc/static/media/roba3rd.d199e1a7.jpg",
@@ -44,6 +44,7 @@
     "static/media/robachamp.jpg": "/uirc/static/media/robachamp.9f7a417f.jpg",
     "static/media/robadesign.jpg": "/uirc/static/media/robadesign.106dffe2.jpg",
     "static/media/robatech.jpg": "/uirc/static/media/robatech.6f6b8b8c.jpg",
-    "static/media/robotcombat.jpg": "/uirc/static/media/robotcombat.cc5d22f3.jpg"
+    "static/media/robotcombat.jpg": "/uirc/static/media/robotcombat.cc5d22f3.jpg",
+    "static/media/uircMain.png": "/uirc/static/media/uircMain.30282694.png"
   }
 }

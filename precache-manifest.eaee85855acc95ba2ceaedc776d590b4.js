@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a179eefdd5d9a480b569165189ef4f6",
+    "revision": "94a9be6e21262effd23064391682855d",
     "url": "/uirc/index.html"
   },
   {
-    "revision": "e39c92bff1c6f6ede89c",
-    "url": "/uirc/static/css/main.63e7fecc.chunk.css"
+    "revision": "355d6aae2bc4e977de95",
+    "url": "/uirc/static/css/main.06ecc8ec.chunk.css"
   },
   {
-    "revision": "d954b9161dfe62db05df",
-    "url": "/uirc/static/js/2.ceb91a5a.chunk.js"
+    "revision": "9e1b4bd4e8de0494b0eb",
+    "url": "/uirc/static/js/2.5d2ad6d2.chunk.js"
   },
   {
-    "revision": "e39c92bff1c6f6ede89c",
-    "url": "/uirc/static/js/main.f2f1eae2.chunk.js"
+    "revision": "355d6aae2bc4e977de95",
+    "url": "/uirc/static/js/main.b5cf309c.chunk.js"
   },
   {
     "revision": "4e1983c005b6348b6c74",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "73527bc3a4df8a8a4b32ba898c0ae1e2",
     "url": "/uirc/static/media/Peraturan_UIRC_Bridge_Challenge.73527bc3.pdf"
+  },
+  {
+    "revision": "604bacc7ec92b2e1cbfef37ec012e300",
+    "url": "/uirc/static/media/RnR_LIFO_UIRC_2019.604bacc7.pdf"
   },
   {
     "revision": "1de08d0d960f3fce9e2b46330aa7c5ca",
@@ -108,10 +112,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uirc/static/media/main4.8517a120.jpg"
   },
   {
-    "revision": "ebc547169339e9207f4336bc09676673",
-    "url": "/uirc/static/media/mainBG.ebc54716.jpg"
-  },
-  {
     "revision": "f24b15158c009db2c4251b0b8b3b611c",
     "url": "/uirc/static/media/roba10.f24b1515.jpg"
   },
@@ -154,5 +154,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cc5d22f3f197a8b2c66c16e5c9250d3c",
     "url": "/uirc/static/media/robotcombat.cc5d22f3.jpg"
+  },
+  {
+    "revision": "302826943c70cafe5993d82e63558d79",
+    "url": "/uirc/static/media/uircMain.30282694.png"
   }
 ]);
