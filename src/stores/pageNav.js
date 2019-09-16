@@ -39,36 +39,36 @@ export default class PageNav {
         this.aboutActive = "";
         this.contactActive = "";
         break;
-        case "lifo":
-          this.homeActive = "";
-          this.compActive = "active";
-          this.comp1Active = "";
-          this.comp2Active = "active";
-          this.comp3Active = "";
-          this.accomActive = "";
-          this.aboutActive = "";
-          this.contactActive = "";
-          break;
-          case "engc":
-            this.homeActive = "";
-            this.compActive = "active";
-            this.comp1Active = "";
-            this.comp2Active = "";
-            this.comp3Active = "active";
-            this.accomActive = "";
-            this.aboutActive = "";
-            this.contactActive = "";
-            break;
-        case "accomodation":
-          this.homeActive = "";
-          this.compActive = "";
-          this.comp1Active = "";
-          this.comp2Active = "";
-          this.comp3Active = "";
-          this.accomActive = "active";
-          this.aboutActive = "";
-          this.contactActive = "";
-          break;
+      case "lifo":
+        this.homeActive = "";
+        this.compActive = "active";
+        this.comp1Active = "";
+        this.comp2Active = "active";
+        this.comp3Active = "";
+        this.accomActive = "";
+        this.aboutActive = "";
+        this.contactActive = "";
+        break;
+      case "engc":
+        this.homeActive = "";
+        this.compActive = "active";
+        this.comp1Active = "";
+        this.comp2Active = "";
+        this.comp3Active = "active";
+        this.accomActive = "";
+        this.aboutActive = "";
+        this.contactActive = "";
+        break;
+      case "accomodation":
+        this.homeActive = "";
+        this.compActive = "";
+        this.comp1Active = "";
+        this.comp2Active = "";
+        this.comp3Active = "";
+        this.accomActive = "active";
+        this.aboutActive = "";
+        this.contactActive = "";
+        break;
       case "about":
         this.homeActive = "";
         this.compActive = "";
@@ -79,6 +79,16 @@ export default class PageNav {
         this.aboutActive = "active";
         this.contactActive = "";
         break;
+      case "contact":
+          this.homeActive = "";
+          this.compActive = "";
+          this.comp1Active = "";
+          this.comp2Active = "";
+          this.comp3Active = "";
+          this.accomActive = "";
+          this.aboutActive = "";
+          this.contactActive = "active";
+          break;
       default:
         break;
     }

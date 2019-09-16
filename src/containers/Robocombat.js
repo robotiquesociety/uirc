@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FaWhatsapp } from "react-icons/fa";
-import mainBG from "../assets/images/mainBG.jpg";
+import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";
 import RoboCombatPics from "../components/RoboCombatPics";
 import "./Robocombat.css";
@@ -55,31 +55,31 @@ export default class Robocombat extends React.Component {
                     <Card.Header>Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 2000 &amp; Trophy
+                        <b>Champion:</b> RM 2000.00 &amp; Trophy
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           1<sup>st</sup> Runner-Up:
                         </b>{" "}
-                        RM 1000 &amp; Trophy
+                        RM 1000.00 &amp; Trophy
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           2<sup>nd</sup> Runner-Up:
                         </b>{" "}
-                        RM 800 &amp; Trophy
+                        RM 800.00 &amp; Trophy
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           3<sup>rd</sup> Runner-Up:
                         </b>{" "}
-                        RM 600 &amp; Trophy
+                        RM 600.00 &amp; Trophy
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 200 &#43; Award Plaque
+                        <b>Best Design Award:</b> RM 200.00 &#43; Award Plaque
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Technology Award:</b> RM 200 &#43; Award Plaque
+                        <b>Best Technology Award:</b> RM 200.00 &#43; Award Plaque
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

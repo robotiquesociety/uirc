@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import mainBG from './assets/images/mainBG.jpg';
+import mainBG from './assets/images/uircMain.png';
 import Button from 'react-bootstrap/Button'
 import './App.css';
 

@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FaWhatsapp } from "react-icons/fa";
 import EngCPictures from "../components/EngCPictures";
-import mainBG from "../assets/images/engcBG.jpg";
+import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";
 import PDFRules from "../assets/Peraturan_UIRC_Bridge_Challenge.pdf";
 import "./EngChallenge.css";
@@ -49,10 +49,10 @@ export default class EngChallenge extends React.Component {
                     <Card.Header>SK Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 200
+                        <b>Champion:</b> RM 200.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 50
+                        <b>Best Design Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -65,10 +65,10 @@ export default class EngChallenge extends React.Component {
                     <Card.Header>SMK Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 200
+                        <b>Champion:</b> RM 200.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 50
+                        <b>Best Design Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

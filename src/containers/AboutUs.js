@@ -20,7 +20,7 @@ export default class AboutUs extends React.Component {
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col md="6" lg="6">
-            <br />
+              <br />
               <Card>
                 <Card.Img variant="top" src={about} />
                 <Card.Body>
@@ -56,7 +56,7 @@ export default class AboutUs extends React.Component {
               </Card>
             </Col>
             <Col md="6" lg="6">
-            <br />
+              <br />
               <Card>
                 <Card.Body>
                   <Card.Text>
@@ -107,7 +107,7 @@ export default class AboutUs extends React.Component {
           <br />
           <Row>
             <Col lg="6">
-            <br />
+              <br />
               <Card>
                 <Card.Body>
                   <Card.Text>
@@ -133,7 +133,7 @@ export default class AboutUs extends React.Component {
               </Card>
             </Col>
             <Col>
-            <br />
+              <br />
               <Card>
                 <Card.Body>
                   <Card.Title>
@@ -167,44 +167,6 @@ export default class AboutUs extends React.Component {
           <br />
           <Row className="justify-content-md-center"></Row>
           <br />
-          <Row>
-            <Col>
-              <Card>
-                <Card.Body>
-                  <Card.Title>
-                    <h2 className="about-text-center">Location</h2>
-                    <br />
-                  </Card.Title>
-                  <Card.Text>
-                    <Row>
-                      <Col lg="5">
-                        <p>
-                          Address:
-                          <br />
-                          Robotique Society Unikl MFI,
-                          <br />
-                          Robotics and Automation Center Of Excellence,
-                          <br />
-                          Level 2, Block E,
-                          <br />
-                          Universiti Kuala Lumpur Malaysia France Institute,
-                          <br />
-                          Seksyen 14, Jalan Teras Jernang,
-                          <br />
-                          Bandar Baru Bangi,43650 Bandar Baru Bangi,
-                          <br />
-                          ​Selangor, Malaysia.
-                        </p>
-                      </Col>
-                      <Col>
-                        <Gmap />
-                      </Col>
-                    </Row>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
         </Container>
       </div>
     );

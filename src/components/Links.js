@@ -10,6 +10,7 @@ import "./Links.css";
 import store from "../stores/index.js";
 import { observer } from "mobx-react";
 import AboutUs from "../containers/AboutUs";
+import ContactUs from "../containers/ContactUs";
 import Accomodation from "../containers/Accomodation";
 import LineFollow from "../containers/LineFollow";
 import EngChallenge from "../containers/EngChallenge";
@@ -25,6 +26,7 @@ const Links = observer(
       this.gotoEngChallenge = this.gotoEngChallenge.bind(this);
       this.gotoAccom = this.gotoAccom.bind(this);
       this.gotoAbout = this.gotoAbout.bind(this);
+      this.gotoContact = this.gotoContact.bind(this);
     }
 
     gotoHome() {
@@ -51,6 +53,10 @@ const Links = observer(
       store.pageNav.setPage("accomodation");
     }
 
+    gotoContact() {
+      store.pageNav.setPage("contact");
+    }
+
     render() {
       const page = store.pageNav;
       let link;
@@ -74,6 +80,9 @@ const Links = observer(
         case "about":
           link = <AboutUs />;
           break;
+        case "contact":
+            link = <ContactUs />;
+            break;
         default:
           break;
       }
@@ -132,7 +141,7 @@ const Links = observer(
                 <Nav.Link onClick={this.gotoAbout} className={page.aboutActive}>
                   About Us
                 </Nav.Link>
-                <Nav.Link>Contact Us</Nav.Link>
+                <Nav.Link onClick={this.gotoContact} className={page.contactActive}>Contact Us</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

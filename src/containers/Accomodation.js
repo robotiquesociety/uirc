@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import "./Accomodation.css";
 import Gmap from "../components/Gmap.js";
 import PDFList from "../assets/list_of_hotels_and_homestay_3.pdf";
-import mainBG from "../assets/images/mainBG.jpg";
+import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";
 
 export default class Accomodation extends React.Component {

@@ -11,7 +11,7 @@ import main2 from "../assets/images/main2.jpg";
 import main3 from "../assets/images/main3.jpg";
 import main4 from "../assets/images/main4.jpg";
 import robotcombat from "../assets/images/robotcombat.jpg";
-import mainBG from "../assets/images/mainBG.jpg";
+import mainBG from "../assets/images/uircMain.png";
 import engcPic from "../assets/images/engc4.jpeg";
 import TopBanner from "../components/TopBanner.js";
 import Countdown from "../components/Countdown.js";

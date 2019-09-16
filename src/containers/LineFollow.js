@@ -11,8 +11,9 @@ import lifo2 from "../assets/images/lifo2.jpg";
 import lifo3 from "../assets/images/lifo3.jpg";
 import lifo4 from "../assets/images/lifo4.jpg";
 import { FaWhatsapp } from "react-icons/fa";
-import mainBG from "../assets/images/mainBG.jpg";
+import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";
+import PDFRules from "../assets/RnR_LIFO_UIRC_2019.pdf";
 import "./LineFollow.css";
 
 export default class LineFollow extends React.Component {
@@ -43,25 +44,28 @@ export default class LineFollow extends React.Component {
               <Row>
                 <Col>
                   <Card>
-                    <Card.Header>School (SK) Category Prizes</Card.Header>
+                    <Card.Header>Primary School Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 250
+                        <b>Champion:</b> RM 300.00
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           1<sup>st</sup> Runner-Up:
                         </b>{" "}
-                        RM 150
+                        RM 200.00
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           2<sup>nd</sup> Runner-Up:
                         </b>{" "}
-                        RM 50
+                        RM 100.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 50
+                        <b>Best Design Award:</b> RM 50.00
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>Best Technology Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -71,25 +75,28 @@ export default class LineFollow extends React.Component {
               <Row>
                 <Col>
                   <Card>
-                    <Card.Header>School (SMK) Category Prizes</Card.Header>
+                    <Card.Header>Secondary School Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 250
+                        <b>Champion:</b> RM 300.00
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           1<sup>st</sup> Runner-Up:
                         </b>{" "}
-                        RM 150
+                        RM 200.00
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           2<sup>nd</sup> Runner-Up:
                         </b>{" "}
-                        RM 50
+                        RM 100.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 50
+                        <b>Best Design Award:</b> RM 50.00
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>Best Technology Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -102,22 +109,25 @@ export default class LineFollow extends React.Component {
                     <Card.Header>Open Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 300
+                        <b>Champion:</b> RM 300.00
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           1<sup>st</sup> Runner-Up:
                         </b>{" "}
-                        RM 200
+                        RM 200.00
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <b>
                           2<sup>nd</sup> Runner-Up:
                         </b>{" "}
-                        RM 100
+                        RM 100.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 100
+                        <b>Best Design Award:</b> RM 50.00
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>Best Technology Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -207,23 +217,23 @@ export default class LineFollow extends React.Component {
                       <p><b>Register Below</b></p>
                       <Button
                         variant="primary"
-                        href="https://forms.gle/JHB54ZR7bPFhXb2W6"
+                        href="https://forms.gle/2tLQbEvL5KsXtNmBA"
                       >
-                        Open Category
+                        Primary School Category
                       </Button>
                       <br /><br />
                       <Button
                         variant="primary"
                         href="https://forms.gle/bg5DeCzBDDZrHKTs6"
                       >
-                        School Category (SMK)
+                        Secondary School Category
                       </Button>
                       <br /><br />
                       <Button
                         variant="primary"
-                        href="https://forms.gle/2tLQbEvL5KsXtNmBA"
+                        href="https://forms.gle/JHB54ZR7bPFhXb2W6"
                       >
-                        School Category (SK)
+                        Open Category
                       </Button>
                     </Card.Body>
                   </Card>
@@ -239,8 +249,8 @@ export default class LineFollow extends React.Component {
                         <u>Rules &amp; Regulation</u>
                         <br />
                         <br />
-                        <Button variant="secondary" disabled>
-                          Will be updated soon...
+                        <Button variant="primary" href={PDFRules}>
+                          View Rules and Regulation
                         </Button>
                       </ListGroup.Item>
                       <ListGroup.Item>
