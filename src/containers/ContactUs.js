@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import Gmap from "../components/Gmap.js";
 import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";

@@ -7,7 +7,6 @@ import Card from "react-bootstrap/Card";
 import about from "../assets/images/about.png";
 import cheamer from "../assets/images/cheamer.jpg";
 import "./AboutUs.css";
-import Gmap from "../components/Gmap.js";
 import mainBG from "../assets/images/engcBG.jpg";
 import TopBanner from "../components/TopBanner.js";
 
