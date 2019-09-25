@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -62,7 +62,8 @@ const Links = observer(
       const page = store.pageNav;
 
       return (
-        <Router basename={process.env.PUBLIC_URL}>
+        // <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="/">
           <div className="body">
             <Navbar
               fixed="top"
