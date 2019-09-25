@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -14,7 +15,7 @@ import ContactUs from "../containers/ContactUs";
 import Accomodation from "../containers/Accomodation";
 import LineFollow from "../containers/LineFollow";
 import EngChallenge from "../containers/EngChallenge";
-import navLogo from "../assets/images/logouirc.png"
+import navLogo from "../assets/images/logouirc.png";
 
 const Links = observer(
   class Links extends React.Component {
@@ -59,98 +60,105 @@ const Links = observer(
 
     render() {
       const page = store.pageNav;
-      let link;
-
-      switch (page.page) {
-        case "home":
-          link = <Mainpage />;
-          break;
-        case "robocombat":
-          link = <Robocombat />;
-          break;
-        case "lifo":
-          link = <LineFollow />;
-          break;
-        case "engc":
-          link = <EngChallenge />;
-          break;
-        case "accomodation":
-          link = <Accomodation />;
-          break;
-        case "about":
-          link = <AboutUs />;
-          break;
-        case "contact":
-            link = <ContactUs />;
-            break;
-        default:
-          break;
-      }
 
       return (
-        <div className="body">
-          <Navbar
-            fixed="top"
-            collapseOnSelect
-            expand="lg"
-            bg="dark"
-            variant="dark"
-          >
-            <Navbar.Brand href="#" onClick={this.gotoHome}>
-              <img
-                alt="RS-LOGO"
-                src={navLogo}
-                width="200"
-                height="56"
-                className="d-inline-block align-top"
-              />
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto" />
-              <Nav>
-                <Nav.Link onClick={this.gotoHome} className={page.homeActive}>
-                  Home
-                </Nav.Link>
-                <NavDropdown
-                  title="2019 Competitions"
-                  id="collasible-nav-dropdown"
-                  className={page.compActive}
-                >
-                  <NavDropdown.Item
-                    onClick={this.gotoCombat}
-                    className={page.comp1Active}
+        <Router>
+          <div className="body">
+            <Navbar
+              fixed="top"
+              collapseOnSelect
+              expand="lg"
+              bg="dark"
+              variant="dark"
+            >
+              <Link onClick={this.gotoHome} className="navbar-brand" to="/">
+                <img
+                  alt="RS-LOGO"
+                  src={navLogo}
+                  width="200"
+                  height="56"
+                  className="d-inline-block align-top"
+                />
+              </Link>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto" />
+                <Nav>
+                  <Link
+                    onClick={this.gotoHome}
+                    className={`nav-link ${page.homeActive}`}
+                    to="/"
                   >
-                    Robot Combat
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    onClick={this.gotoLifo}
-                    className={page.comp2Active}
+                    Home
+                  </Link>
+                  <NavDropdown
+                    title="2019 Competitions"
+                    id="collasible-nav-dropdown"
+                    className={page.compActive}
                   >
-                    Line Following
-                  </NavDropdown.Item>
-                  <NavDropdown.Item onClick={this.gotoEngChallenge}
-                    className={page.comp3Active}>
-                    Engineering Challenge
-                  </NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link>Schedule</Nav.Link>
-                <Nav.Link onClick={this.gotoAccom} className={page.accomActive}>
-                  Accomodation
-                </Nav.Link>
-                <Nav.Link onClick={this.gotoAbout} className={page.aboutActive}>
-                  About Us
-                </Nav.Link>
-                <Nav.Link onClick={this.gotoContact} className={page.contactActive}>Contact Us</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-          {link}
-          <br />
-          <Container fluid className="footer">
-            <FaRegCopyright className="footer-icon" /> Robotique Society 2019
-          </Container>
-        </div>
+                    <Link
+                      onClick={this.gotoCombat}
+                      role="button"
+                      className={`dropdown-item ${page.comp1Active}`}
+                      to="/robot-combat/"
+                    >
+                      Robot Combat
+                    </Link>
+                    <Link
+                      onClick={this.gotoLifo}
+                      role="button"
+                      className={`dropdown-item ${page.comp2Active}`}
+                      to="/line-following/"
+                    >
+                      Line Following
+                    </Link>
+                    <Link
+                      onClick={this.gotoEngChallenge}
+                      role="button"
+                      className={`dropdown-item ${page.comp3Active}`}
+                      to="/engineering-challenge/"
+                    >
+                      Engineering Challenge
+                    </Link>
+                  </NavDropdown>
+                  <Nav.Link>Schedule</Nav.Link>
+                  <Link
+                    onClick={this.gotoAccom}
+                    className={`nav-link ${page.accomActive}`}
+                    to="/accomodation/"
+                  >
+                    Accomodation
+                  </Link>
+                  <Link
+                    onClick={this.gotoAbout}
+                    className={`nav-link ${page.aboutActive}`}
+                    to="/about/"
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    onClick={this.gotoContact}
+                    className={`nav-link ${page.contactActive}`}
+                    to="/contact/"
+                  >
+                    Contact Us
+                  </Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+            <Route path="/" exact component={Mainpage} />
+            <Route path="/robot-combat/" component={Robocombat} />
+            <Route path="/line-following/" component={LineFollow} />
+            <Route path="/engineering-challenge/" component={EngChallenge} />
+            <Route path="/accomodation/" component={Accomodation} />
+            <Route path="/about/" component={AboutUs} />
+            <Route path="/contact/" component={ContactUs} />
+            <br />
+            <Container fluid className="footer">
+              <FaRegCopyright className="footer-icon" /> Robotique Society 2019
+            </Container>
+          </div>
+        </Router>
       );
     }
   }

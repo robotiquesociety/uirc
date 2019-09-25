@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,44 +10,56 @@ import { FaWhatsapp } from "react-icons/fa";
 import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";
 import RoboCombatPics from "../components/RoboCombatPics";
+import PDFRules from "../assets/RnR_UIRC_2019.pdf";
 import "./Robocombat.css";
 
 export default class Robocombat extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Robotique Society - Robot Combat</title>
+          <meta
+            name="description"
+            content="Robot combat, a game where participants test their robot agility and durability to reach the objectives while withstanding the heavy blow of their opponent. Does your robot satisfy that criteria? Show us what you and your robot(s) are capable off by winning the game. We await your accomplishments."
+          />
+          <meta
+            name="keywords"
+            content="UIRC, Malaysia, Robattle, Robot Combat, UniKL, MFI, Malaysia France Institute, Robot, University Kuala Lumpur, Competition, November, 2019, Robotique Society, Robotic, Community, Society"
+          />
+        </Helmet>
         <TopBanner src={mainBG} />
         <br />
         <Container fluid>
           <Row className="justify-content-md-center">
             <Col md="6" lg="7">
               <br />
-                <Row>
-                    <Col>
-              <Card body>
-                <h1 style={{ color: "#a62124" }}>Robot Battle</h1>
-                <br />
-                <p>
-                  UniKL Ro-Battle Competition aims to create awareness and
-                  interest in robotics technology as well as create a platform
-                  for various people especially the students to be involved in a
-                  more hands-on and practical aspect in engineering and
-                  technology through robotics.
-                </p>
-                <p>
-                  This program is a student-driven event, initiated by Robotique
-                  Society with the collaboration of various clubs/societies and
-                  departments of Universiti Kuala Lumpur. The competition is
-                  open to IPTA, IPTS, Technical Institute, Companies and
-                  Schools.
-                </p>
-                <p>
-                  This event is a two day event which starts on 2nd November
-                  2019 to 3rd November 2019 at Perdana Hall, Malaysia France
-                  Institute, University Kuala Lumpur.
-                </p>
-              </Card>
-              </Col>
+              <Row>
+                <Col>
+                  <Card body>
+                    <h1 style={{ color: "#a62124" }}>Robot Battle</h1>
+                    <br />
+                    <p>
+                      UniKL Ro-Battle Competition aims to create awareness and
+                      interest in robotics technology as well as create a
+                      platform for various people especially the students to be
+                      involved in a more hands-on and practical aspect in
+                      engineering and technology through robotics.
+                    </p>
+                    <p>
+                      This program is a student-driven event, initiated by
+                      Robotique Society with the collaboration of various
+                      clubs/societies and departments of Universiti Kuala
+                      Lumpur. The competition is open to IPTA, IPTS, Technical
+                      Institute, Companies and Schools.
+                    </p>
+                    <p>
+                      This event is a two day event which starts on 2nd November
+                      2019 to 3rd November 2019 at Perdana Hall, Malaysia France
+                      Institute, University Kuala Lumpur.
+                    </p>
+                  </Card>
+                </Col>
               </Row>
               <br />
               <Row>
@@ -79,7 +92,8 @@ export default class Robocombat extends React.Component {
                         <b>Best Design Award:</b> RM 200.00 &#43; Award Plaque
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Technology Award:</b> RM 200.00 &#43; Award Plaque
+                        <b>Best Technology Award:</b> RM 200.00 &#43; Award
+                        Plaque
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -87,13 +101,13 @@ export default class Robocombat extends React.Component {
               </Row>
             </Col>
             <Col md="6" lg="5">
-            <br />
+              <br />
               <Row>
                 <Col>
-                  <RoboCombatPics/>
+                  <RoboCombatPics />
                 </Col>
               </Row>
-              <br/>
+              <br />
               <Row>
                 <Col>
                   <Card>
@@ -147,23 +161,28 @@ export default class Robocombat extends React.Component {
                   </Card>
                 </Col>
               </Row>
-              <br/>
+              <br />
               <Row>
-                  <Col>
+                <Col>
                   <Card>
-                  <Card.Header>Rules &amp; Coodinating Team</Card.Header>
-                  <ListGroup variant="flush">
+                    <Card.Header>Rules &amp; Coodinating Team</Card.Header>
+                    <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <u>Rules &amp; Regulation</u><br/><br/>
-                        <Button variant="secondary" disabled>Will be updated soon...</Button>
+                        <u>Rules &amp; Regulation</u>
+                        <br />
+                        <br />
+                        <Button variant="primary" href={PDFRules}>
+                          View Rules and Regulation
+                        </Button>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <u>Contact Us (WhatsApp PM only)</u><br/>
-                        Muhammad Afeeq <FaWhatsapp/> 011-35035154
+                        <u>Contact Us (WhatsApp PM only)</u>
+                        <br />
+                        Muhammad Afeeq <FaWhatsapp /> 011-35035154
                       </ListGroup.Item>
-                      </ListGroup>
+                    </ListGroup>
                   </Card>
-                  </Col>
+                </Col>
               </Row>
             </Col>
           </Row>

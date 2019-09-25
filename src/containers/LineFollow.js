@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -20,6 +21,17 @@ export default class LineFollow extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Robotique Society - Line Following</title>
+          <meta
+            name="description"
+            content="Line following robot, the first step towards autonomous car. A robot that follows the designated path to reach its objectives. Are you capable of making the fastest line follow robot? Prove your skill now! Participate and claim your title as the best. Challenge your knowledge in mechanical, programming and Critical Thinking skills. We await your achievements."
+          />
+          <meta
+            name="keywords"
+            content="UIRC, Malaysia, Robattle, UniKL, MFI, Malaysia France Institute, Line Following, Robot, University Kuala Lumpur, Competition, November, 2019, Robotique Society, Robotic, Community, Society"
+          />
+        </Helmet>
         <TopBanner src={mainBG} />
         <Container fluid>
           <br />
@@ -27,7 +39,7 @@ export default class LineFollow extends React.Component {
             <Col md="6" lg="7">
               <Row>
                 <Col>
-                <br />
+                  <br />
                   <Card body>
                     <h1 style={{ color: "#a62124" }}>Line Following Robot</h1>
                     <br />
@@ -137,7 +149,7 @@ export default class LineFollow extends React.Component {
             <Col md="6" lg="5">
               <Row>
                 <Col>
-                <br />
+                  <br />
                   <Carousel interval="3000">
                     <Carousel.Item>
                       <img
@@ -214,21 +226,25 @@ export default class LineFollow extends React.Component {
                       </ListGroup.Item>
                     </ListGroup>
                     <Card.Body>
-                      <p><b>Register Below</b></p>
+                      <p>
+                        <b>Register Below</b>
+                      </p>
                       <Button
                         variant="primary"
                         href="https://forms.gle/2tLQbEvL5KsXtNmBA"
                       >
                         Primary School Category
                       </Button>
-                      <br /><br />
+                      <br />
+                      <br />
                       <Button
                         variant="primary"
                         href="https://forms.gle/bg5DeCzBDDZrHKTs6"
                       >
                         Secondary School Category
                       </Button>
-                      <br /><br />
+                      <br />
+                      <br />
                       <Button
                         variant="primary"
                         href="https://forms.gle/JHB54ZR7bPFhXb2W6"
@@ -256,7 +272,7 @@ export default class LineFollow extends React.Component {
                       <ListGroup.Item>
                         <u>Contact Us (WhatsApp PM only)</u>
                         <br />
-                        Muhammad Aiman <FaWhatsapp /> 011-28478001
+                        Aiman Kamarudin <FaWhatsapp /> 011-28478001
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

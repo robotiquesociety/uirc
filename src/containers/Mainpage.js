@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -26,9 +28,9 @@ import {
 } from "react-icons/fa";
 import { observer } from "mobx-react";
 import store from "../stores/index.js";
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga";
 
-ReactGA.initialize('UA-147623603-1');
+ReactGA.initialize("UA-147623603-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const Mainpage = observer(
@@ -60,6 +62,17 @@ const Mainpage = observer(
           : currentDate.getFullYear();
       return (
         <div>
+          <Helmet>
+            <title>Robotique Society Website</title>
+            <meta
+              name="description"
+              content="UniKL MFI yearly competition is here. UniKL International Robattle Competition (UIRC) 2019 is a place where you can push your limit in building the best robot you can build. Compete with other robotic enthusiasts to be the best in concurring the task given. Choose between our various tasks covering from creative engineering design, fast and accurate line following robot, or even crush the other competitors in our famous Robattle event. Exchange knowledge between us. Together we grow and bring the best robotic community. Visit our website and come and join us."
+            />
+            <meta
+              name="keywords"
+              content="UIRC, Malaysia, Robattle, Robot Combat, UniKL, MFI, Malaysia France Institute, Line Following, Robot, Engineering Challenge, University Kuala Lumpur, Competition, November, 2019, Robotique Society, Robotic, Community, Society"
+            />
+          </Helmet>
           <TopBanner src={mainBG} />
           {/* https://savvytime.com/converter/utc-to-myt/nov-2-2019/3am */}
           {/* https://www.w3schools.com/js/js_date_formats.asp */}
@@ -93,13 +106,14 @@ const Mainpage = observer(
                             you and your robot(s) are capable off by winning the
                             game. We await your accomplishments.
                           </p>
-                          <Button
-                            className="justify-end-main"
-                            variant="primary"
-                            onClick={this.gotoCombat}
-                          >
-                            More Informations...
-                          </Button>
+                          <Link onClick={this.gotoCombat} to="/robot-combat/">
+                            <Button
+                              className="justify-end-main"
+                              variant="primary"
+                            >
+                              More Informations...
+                            </Button>
+                          </Link>
                         </Col>
                       </Row>
                     </div>
@@ -134,13 +148,14 @@ const Mainpage = observer(
                             programming and Critical Thinking skills. We await
                             your achievements.
                           </p>
-                          <Button
-                            className="justify-end-main"
-                            variant="primary"
-                            onClick={this.gotoLifo}
-                          >
-                            More Informations...
-                          </Button>
+                          <Link onClick={this.gotoLifo} to="/line-following/">
+                            <Button
+                              className="justify-end-main"
+                              variant="primary"
+                            >
+                              More Informations...
+                            </Button>
+                          </Link>
                         </Col>
                       </Row>
                     </div>
@@ -176,13 +191,17 @@ const Mainpage = observer(
                             outside this world. Participate now and claim your
                             position on the seat of GREATNESS. Surprise Us!
                           </p>
-                          <Button
-                            className="justify-end-main"
-                            variant="primary"
+                          <Link
                             onClick={this.gotoEngChallenge}
+                            to="/engineering-challenge/"
                           >
-                            More Informations...
-                          </Button>
+                            <Button
+                              className="justify-end-main"
+                              variant="primary"
+                            >
+                              More Informations...
+                            </Button>
+                          </Link>
                         </Col>
                       </Row>
                     </div>

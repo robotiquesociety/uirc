@@ -41,3 +41,9 @@ https://www.google.com/webmasters/tools/dashboard?hl=en&sig=ALjLGbObxffroJU1pjkU
     then add the HTML file to public folder
     then npm run deploy
     OR apply meta tag using the same method (google search console site)
+
+React router
+https://reacttraining.com/react-router/web/guides/quick-start
+
+Put multiple classes
+https://stackoverflow.com/questions/34521797/how-to-add-multiple-classes-to-a-reactjs-component

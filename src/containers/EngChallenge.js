@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,6 +17,18 @@ export default class EngChallenge extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Robotique Society - Engineering Challenge</title>
+          <meta
+            name="description"
+            content="
+            Engineering Challenge is an innovation and creativity competition that is created to test the ability of participants to solve engineering related challenges. Test your limit as an engineer and improve yourself. Think outside the box? No! Think outside this world. Participate now and claim your position on the seat of GREATNESS. Surprise Us!"
+          />
+          <meta
+            name="keywords"
+            content="UIRC, Malaysia, Robattle, UniKL, MFI, Malaysia France Institute, Engineering Challenge, University Kuala Lumpur, Competition, November, 2019, Robotique Society, Robotic, Community, Society"
+          />
+        </Helmet>
         <TopBanner src={mainBG} />
         <br />
         <Container fluid>
