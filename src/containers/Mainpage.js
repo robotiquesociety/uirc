@@ -106,7 +106,7 @@ const Mainpage = observer(
                             you and your robot(s) are capable off by winning the
                             game. We await your accomplishments.
                           </p>
-                          <Link onClick={this.gotoCombat} to="/robot-combat/">
+                          <Link onClick={this.gotoCombat} to="/uirc/robot-combat/">
                             <Button
                               className="justify-end-main"
                               variant="primary"
@@ -148,7 +148,7 @@ const Mainpage = observer(
                             programming and Critical Thinking skills. We await
                             your achievements.
                           </p>
-                          <Link onClick={this.gotoLifo} to="/line-following/">
+                          <Link onClick={this.gotoLifo} to="/uirc/line-following/">
                             <Button
                               className="justify-end-main"
                               variant="primary"
@@ -193,7 +193,7 @@ const Mainpage = observer(
                           </p>
                           <Link
                             onClick={this.gotoEngChallenge}
-                            to="/engineering-challenge/"
+                            to="/uirc/engineering-challenge/"
                           >
                             <Button
                               className="justify-end-main"
