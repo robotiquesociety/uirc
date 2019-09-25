@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94a9be6e21262effd23064391682855d",
+    "revision": "41b55e5860919a18344a0a8a01c2c08b",
     "url": "/uirc/index.html"
   },
   {
-    "revision": "355d6aae2bc4e977de95",
-    "url": "/uirc/static/css/main.06ecc8ec.chunk.css"
+    "revision": "b7ccfbc0828ac6da14e1",
+    "url": "/uirc/static/css/main.4b7e6c83.chunk.css"
   },
   {
-    "revision": "9e1b4bd4e8de0494b0eb",
-    "url": "/uirc/static/js/2.5d2ad6d2.chunk.js"
+    "revision": "64ed5a30a1f337c809ec",
+    "url": "/uirc/static/js/2.9dbcd831.chunk.js"
   },
   {
-    "revision": "355d6aae2bc4e977de95",
-    "url": "/uirc/static/js/main.b5cf309c.chunk.js"
+    "revision": "b7ccfbc0828ac6da14e1",
+    "url": "/uirc/static/js/main.98b8b335.chunk.js"
   },
   {
     "revision": "4e1983c005b6348b6c74",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "604bacc7ec92b2e1cbfef37ec012e300",
     "url": "/uirc/static/media/RnR_LIFO_UIRC_2019.604bacc7.pdf"
+  },
+  {
+    "revision": "ba9749cf47a0065631c6940e7b200c8c",
+    "url": "/uirc/static/media/RnR_UIRC_2019.ba9749cf.pdf"
   },
   {
     "revision": "1de08d0d960f3fce9e2b46330aa7c5ca",
