@@ -62,7 +62,7 @@ const Links = observer(
       const page = store.pageNav;
 
       return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="body">
             <Navbar
               fixed="top"
@@ -71,7 +71,7 @@ const Links = observer(
               bg="dark"
               variant="dark"
             >
-              <Link onClick={this.gotoHome} className="navbar-brand" to="/uirc/">
+              <Link onClick={this.gotoHome} className="navbar-brand" to="/">
                 <img
                   alt="RS-LOGO"
                   src={navLogo}
@@ -87,7 +87,7 @@ const Links = observer(
                   <Link
                     onClick={this.gotoHome}
                     className={`nav-link ${page.homeActive}`}
-                    to="/uirc/"
+                    to="/"
                   >
                     Home
                   </Link>
@@ -100,7 +100,7 @@ const Links = observer(
                       onClick={this.gotoCombat}
                       role="button"
                       className={`dropdown-item ${page.comp1Active}`}
-                      to="/uirc/robot-combat/"
+                      to="/robot-combat/"
                     >
                       Robot Combat
                     </Link>
@@ -108,7 +108,7 @@ const Links = observer(
                       onClick={this.gotoLifo}
                       role="button"
                       className={`dropdown-item ${page.comp2Active}`}
-                      to="/uirc/line-following/"
+                      to="/line-following/"
                     >
                       Line Following
                     </Link>
@@ -116,7 +116,7 @@ const Links = observer(
                       onClick={this.gotoEngChallenge}
                       role="button"
                       className={`dropdown-item ${page.comp3Active}`}
-                      to="/uirc/engineering-challenge/"
+                      to="/engineering-challenge/"
                     >
                       Engineering Challenge
                     </Link>
@@ -125,34 +125,34 @@ const Links = observer(
                   <Link
                     onClick={this.gotoAccom}
                     className={`nav-link ${page.accomActive}`}
-                    to="/uirc/accomodation/"
+                    to="/accomodation/"
                   >
                     Accomodation
                   </Link>
                   <Link
                     onClick={this.gotoAbout}
                     className={`nav-link ${page.aboutActive}`}
-                    to="/uirc/about/"
+                    to="/about/"
                   >
                     About Us
                   </Link>
                   <Link
                     onClick={this.gotoContact}
                     className={`nav-link ${page.contactActive}`}
-                    to="/uirc/contact/"
+                    to="/contact/"
                   >
                     Contact Us
                   </Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
-            <Route path="/uirc/" exact component={Mainpage} />
-            <Route path="/uirc/robot-combat/" component={Robocombat} />
-            <Route path="/uirc/line-following/" component={LineFollow} />
-            <Route path="/uirc/engineering-challenge/" component={EngChallenge} />
-            <Route path="/uirc/accomodation/" component={Accomodation} />
-            <Route path="/uirc/about/" component={AboutUs} />
-            <Route path="/uirc/contact/" component={ContactUs} />
+            <Route path="/" exact component={Mainpage} />
+            <Route path="/robot-combat/" component={Robocombat} />
+            <Route path="/line-following/" component={LineFollow} />
+            <Route path="/engineering-challenge/" component={EngChallenge} />
+            <Route path="/accomodation/" component={Accomodation} />
+            <Route path="/about/" component={AboutUs} />
+            <Route path="/contact/" component={ContactUs} />
             <br />
             <Container fluid className="footer">
               <FaRegCopyright className="footer-icon" /> Robotique Society 2019
