@@ -132,9 +132,9 @@ export default class EngChallenge extends React.Component {
                       <ListGroup.Item>
                         <Row>
                           <Col xs="5">
-                            <b>Registration Fees (Deposit)</b>
+                            <b>Registration Fees</b>
                           </Col>
-                          <Col>RM 20.00 (RM 10.00)</Col>
+                          <Col>RM 20.00 (per team of two)</Col>
                         </Row>
                       </ListGroup.Item>
                     </ListGroup>
@@ -166,7 +166,7 @@ export default class EngChallenge extends React.Component {
                       <ListGroup.Item>
                         <u>Contact Us (WhatsApp PM only)</u>
                         <br />
-                        Muhammad Adib <FaWhatsapp /> 019-5774940
+                        Baaz <FaWhatsapp /> +6019 577 4940
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
