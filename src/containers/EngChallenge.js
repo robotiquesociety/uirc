@@ -62,10 +62,13 @@ export default class EngChallenge extends React.Component {
                     <Card.Header>SK Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 200.00
+                        <b>Champion:</b> RM 150.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 50.00
+                        <b>2nd Place Award:</b> RM 100.00
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>3rd Place Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
@@ -78,10 +81,13 @@ export default class EngChallenge extends React.Component {
                     <Card.Header>SMK Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <b>Champion:</b> RM 200.00
+                        <b>Champion:</b> RM 150.00
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <b>Best Design Award:</b> RM 50.00
+                        <b>2nd Place Award:</b> RM 100.00
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <b>3rd Place Award:</b> RM 50.00
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
