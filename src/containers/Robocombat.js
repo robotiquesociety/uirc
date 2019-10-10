@@ -149,6 +149,23 @@ export default class Robocombat extends React.Component {
                           <Col>RM 200.00 (RM 100.00)</Col>
                         </Row>
                       </ListGroup.Item>
+                      <ListGroup.Item>
+                        <Row>
+                          <Col>
+                            <b>Join our WhatsApp Group (for announcement):</b>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col>
+                            <Button
+                              variant="success"
+                              href="https://chat.whatsapp.com/I2RA1UgMfhPCqJlunwROc0"
+                            >
+                              <FaWhatsapp /> WhatsApp Group
+                            </Button>
+                          </Col>
+                        </Row>
+                      </ListGroup.Item>
                     </ListGroup>
                     <Card.Body>
                       <Button
