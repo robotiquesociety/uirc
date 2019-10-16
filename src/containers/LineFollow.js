@@ -216,42 +216,57 @@ export default class LineFollow extends React.Component {
                           <Col>Qurratul Nadzirah Binti Zahrin</Col>
                         </Row>
                       </ListGroup.Item>
+                      <ListGroup.Item style={{backgroundColor:"#e7e7e7"}}></ListGroup.Item>
+                      <ListGroup.Item style={{backgroundColor:"#f7f7f7"}}>
+                        <Row>
+                          <Col xs="5">
+                            <b>Register Below</b>
+                          </Col>
+                          <Col>
+                            <b>Registration Fees (Deposit)</b>
+                          </Col>
+                        </Row>
+                      </ListGroup.Item>
                       <ListGroup.Item>
                         <Row>
                           <Col xs="5">
-                            <b>Registration Fees (Deposit)</b>
+                            <Button
+                              variant="primary"
+                              href="https://forms.gle/2tLQbEvL5KsXtNmBA"
+                            >
+                              Primary School Category
+                            </Button>
+                          </Col>
+                          <Col>RM 70.00 (RM 50.00)</Col>
+                        </Row>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <Row>
+                          <Col xs="5">
+                            <Button
+                              variant="primary"
+                              href="https://forms.gle/bg5DeCzBDDZrHKTs6"
+                            >
+                              Secondary School Category
+                            </Button>
+                          </Col>
+                          <Col>RM 70.00 (RM 50.00)</Col>
+                        </Row>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <Row>
+                          <Col xs="5">
+                            <Button
+                              variant="primary"
+                              href="https://forms.gle/JHB54ZR7bPFhXb2W6"
+                            >
+                              Open Category
+                            </Button>
                           </Col>
                           <Col>RM 100.00 (RM 50.00)</Col>
                         </Row>
                       </ListGroup.Item>
                     </ListGroup>
-                    <Card.Body>
-                      <p>
-                        <b>Register Below</b>
-                      </p>
-                      <Button
-                        variant="primary"
-                        href="https://forms.gle/2tLQbEvL5KsXtNmBA"
-                      >
-                        Primary School Category
-                      </Button>
-                      <br />
-                      <br />
-                      <Button
-                        variant="primary"
-                        href="https://forms.gle/bg5DeCzBDDZrHKTs6"
-                      >
-                        Secondary School Category
-                      </Button>
-                      <br />
-                      <br />
-                      <Button
-                        variant="primary"
-                        href="https://forms.gle/JHB54ZR7bPFhXb2W6"
-                      >
-                        Open Category
-                      </Button>
-                    </Card.Body>
                   </Card>
                 </Col>
               </Row>
