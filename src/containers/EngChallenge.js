@@ -153,7 +153,14 @@ export default class EngChallenge extends React.Component {
                       <ListGroup.Item>
                         <u>Contact Us (WhatsApp PM only)</u>
                         <br />
-                        Baaz <FaWhatsapp /> +6019 577 4940
+                        Baaz <FaWhatsapp />
+                        <Button
+                            style={{padding: "0 0 .1rem 0"}}
+                            variant="link"
+                            href="https://wa.me/+60195774940"
+                          >
+                             +60195774940
+                          </Button>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

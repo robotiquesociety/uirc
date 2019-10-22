@@ -287,7 +287,14 @@ export default class LineFollow extends React.Component {
                       <ListGroup.Item>
                         <u>Contact Us (WhatsApp PM only)</u>
                         <br />
-                        Aiman Kamarudin <FaWhatsapp /> 011-28478001
+                        Aiman Kamarudin <FaWhatsapp />
+                        <Button
+                            style={{padding: "0 0 .1rem 0"}}
+                            variant="link"
+                            href="https://wa.me/+601128478001"
+                          >
+                             +601128478001
+                          </Button>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

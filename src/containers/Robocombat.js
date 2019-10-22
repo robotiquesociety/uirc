@@ -195,7 +195,14 @@ export default class Robocombat extends React.Component {
                       <ListGroup.Item>
                         <u>Contact Us (WhatsApp PM only)</u>
                         <br />
-                        Muhammad Afeeq <FaWhatsapp /> 011-35035154
+                        Muhammad Afeeq <FaWhatsapp />
+                        <Button
+                            style={{padding: "0 0 .1rem 0"}}
+                            variant="link"
+                            href="https://wa.me/+601135035154"
+                          >
+                             +601135035154
+                          </Button>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>

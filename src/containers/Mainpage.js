@@ -256,7 +256,14 @@ const Mainpage = observer(
                             <br />
                             <FaIdBadge /> Muhamad Azhar Ridhwan
                             <br />
-                            <FaWhatsapp /> 011-611 40939
+                            <FaWhatsapp />
+                            <Button
+                            style={{padding: "0 0 .1rem 0"}}
+                            variant="link"
+                            href="https://wa.me/+601161140939"
+                          >
+                             +601161140939
+                          </Button>
                           </p>
                         </ListGroup.Item>
                         <ListGroup.Item>
@@ -265,7 +272,14 @@ const Mainpage = observer(
                             <br />
                             <FaIdBadge /> Qurratul Nadzirah
                             <br />
-                            <FaWhatsapp /> 019-621 3791
+                            <FaWhatsapp />
+                          <Button
+                            style={{padding: "0 0 .1rem 0"}}
+                            variant="link"
+                            href="https://wa.me/+60196213791"
+                          >
+                             +60196213791
+                          </Button>
                           </p>
                         </ListGroup.Item>
                         <ListGroup.Item>
@@ -274,7 +288,14 @@ const Mainpage = observer(
                             <br />
                             <FaIdBadge /> Nasrullah
                             <br />
-                            <FaWhatsapp /> 019-904 5906
+                            <FaWhatsapp />
+                            <Button
+                            style={{padding: "0 0 .1rem 0"}}
+                            variant="link"
+                            href="https://wa.me/+60199045906"
+                          >
+                             +60199045906
+                          </Button>
                           </p>
                         </ListGroup.Item>
                       </ListGroup>
