@@ -59,25 +59,6 @@ export default class EngChallenge extends React.Component {
               <Row>
                 <Col>
                   <Card>
-                    <Card.Header>SK Category Prizes</Card.Header>
-                    <ListGroup variant="flush">
-                      <ListGroup.Item>
-                        <b>Champion:</b> RM 150.00
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <b>2nd Place Award:</b> RM 100.00
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <b>3rd Place Award:</b> RM 50.00
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Card>
-                </Col>
-              </Row>
-              <br />
-              <Row>
-                <Col>
-                  <Card>
                     <Card.Header>SMK Category Prizes</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
@@ -140,7 +121,7 @@ export default class EngChallenge extends React.Component {
                           <Col xs="5">
                             <b>Registration Fees</b>
                           </Col>
-                          <Col>RM 20.00 (per team of two)</Col>
+                          <Col>RM 10.00 (per team of two)</Col>
                         </Row>
                       </ListGroup.Item>
                     </ListGroup>
