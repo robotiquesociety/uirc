@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95b7b3fa7dc47cd230fc496ddf133529",
+    "revision": "2f17ce08f48fc5b0bf65b6f8dca9d536",
     "url": "/uirc/index.html"
   },
   {
-    "revision": "35d69b93a495b33e040f",
-    "url": "/uirc/static/css/main.06ecc8ec.chunk.css"
+    "revision": "15bfc379721920531a66",
+    "url": "/uirc/static/css/main.f44b39f5.chunk.css"
   },
   {
-    "revision": "25c8f05b20fdf10931b2",
-    "url": "/uirc/static/js/2.47f516ad.chunk.js"
+    "revision": "ac1944fecd17d7aeacce",
+    "url": "/uirc/static/js/2.393b18db.chunk.js"
   },
   {
-    "revision": "35d69b93a495b33e040f",
-    "url": "/uirc/static/js/main.29c555ce.chunk.js"
+    "revision": "15bfc379721920531a66",
+    "url": "/uirc/static/js/main.4864da29.chunk.js"
   },
   {
     "revision": "4e1983c005b6348b6c74",
     "url": "/uirc/static/js/runtime~main.f94ceb8e.js"
   },
   {
+    "revision": "67beda00dc4988726b038291841f9579",
+    "url": "/uirc/static/media/LIFO_TENTATIVE.67beda00.pdf"
+  },
+  {
     "revision": "73527bc3a4df8a8a4b32ba898c0ae1e2",
     "url": "/uirc/static/media/Peraturan_UIRC_Bridge_Challenge.73527bc3.pdf"
   },
   {
-    "revision": "604bacc7ec92b2e1cbfef37ec012e300",
-    "url": "/uirc/static/media/RnR_LIFO_UIRC_2019.604bacc7.pdf"
+    "revision": "b990002dca618e5fd63e2fa885e0e560",
+    "url": "/uirc/static/media/RnR_LIFO_UIRC_2019.b990002d.pdf"
   },
   {
     "revision": "ba9749cf47a0065631c6940e7b200c8c",
     "url": "/uirc/static/media/RnR_UIRC_2019.ba9749cf.pdf"
+  },
+  {
+    "revision": "09546fc1c8e0758fe01cfdc29b9f0039",
+    "url": "/uirc/static/media/SCHEDULE_LIFO.09546fc1.pdf"
   },
   {
     "revision": "1de08d0d960f3fce9e2b46330aa7c5ca",
