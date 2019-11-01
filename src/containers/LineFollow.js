@@ -15,6 +15,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import mainBG from "../assets/images/uircMain.png";
 import TopBanner from "../components/TopBanner.js";
 import PDFRules from "../assets/RnR_LIFO_UIRC_2019.pdf";
+import PDFTentative from "../assets/LIFO_TENTATIVE.pdf";
+import PDFSchedule from "../assets/SCHEDULE_LIFO.pdf";
 import "./LineFollow.css";
 
 export default class LineFollow extends React.Component {
@@ -49,6 +51,28 @@ export default class LineFollow extends React.Component {
                       category and open category. Don't miss this chance to test
                       your understanding in line following robot.
                     </p>
+                  </Card>
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col>
+                  <br />
+                  <Card body>
+                    <h3 style={{}}>
+                      <b>Line Following Schedule and Tentative are Out!</b>
+                    </h3>
+                    <br />
+                    <p>
+                      Click on the button below to see the tentative and
+                      schedule:
+                    </p>
+                    <Button variant="primary" href={PDFTentative} style={{marginRight: 10}}>
+                      View Tentative
+                    </Button>
+                    <Button variant="primary" href={PDFSchedule} style={{marginLeft: 10}}>
+                      View Schedule
+                    </Button>
                   </Card>
                 </Col>
               </Row>
@@ -216,8 +240,10 @@ export default class LineFollow extends React.Component {
                           <Col>Qurratul Nadzirah Binti Zahrin</Col>
                         </Row>
                       </ListGroup.Item>
-                      <ListGroup.Item style={{backgroundColor:"#e7e7e7"}}></ListGroup.Item>
-                      <ListGroup.Item style={{backgroundColor:"#f7f7f7"}}>
+                      <ListGroup.Item
+                        style={{ backgroundColor: "#e7e7e7" }}
+                      ></ListGroup.Item>
+                      <ListGroup.Item style={{ backgroundColor: "#f7f7f7" }}>
                         <Row>
                           <Col xs="5">
                             <b>Register Below</b>
@@ -277,7 +303,7 @@ export default class LineFollow extends React.Component {
                     <Card.Header>Rules &amp; Coodinating Team</Card.Header>
                     <ListGroup variant="flush">
                       <ListGroup.Item>
-                        <u>Rules &amp; Regulation</u>
+                        <u>Rules &amp; Regulation (Updated 1/11/19)</u>
                         <br />
                         <br />
                         <Button variant="primary" href={PDFRules}>
@@ -289,12 +315,12 @@ export default class LineFollow extends React.Component {
                         <br />
                         Aiman Kamarudin <FaWhatsapp />
                         <Button
-                            style={{padding: "0 0 .1rem 0"}}
-                            variant="link"
-                            href="https://wa.me/+601128478001"
-                          >
-                             +601128478001
-                          </Button>
+                          style={{ padding: "0 0 .1rem 0" }}
+                          variant="link"
+                          href="https://wa.me/+601128478001"
+                        >
+                          +601128478001
+                        </Button>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card>
