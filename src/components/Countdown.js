@@ -95,7 +95,8 @@ class Countdown extends Component {
           <Col   className="cdBG">
             <Row>
               <Col>
-                <strong>{this.addLeadingZeros(countDown.days)}</strong>
+//                 <strong>{this.addLeadingZeros(countDown.days)}</strong>
+                <strong>00</strong>
               </Col>
             </Row>
             <Row>
@@ -107,7 +108,8 @@ class Countdown extends Component {
           <Col   className="cdBG">
             <Row>
               <Col>
-              <strong>{this.addLeadingZeros(countDown.hours)}</strong>
+//               <strong>{this.addLeadingZeros(countDown.hours)}</strong>
+              <strong>00</strong>
               </Col>
             </Row>
             <Row>
@@ -119,7 +121,8 @@ class Countdown extends Component {
           <Col   className="cdBG">
             <Row>
               <Col>
-              <strong>{this.addLeadingZeros(countDown.min)}</strong>
+//               <strong>{this.addLeadingZeros(countDown.min)}</strong>
+              <strong>00</strong>
               </Col>
             </Row>
             <Row>
@@ -131,7 +134,8 @@ class Countdown extends Component {
           <Col   className="cdBG">
             <Row>
               <Col>
-              <strong>{this.addLeadingZeros(countDown.sec)}</strong>
+//               <strong>{this.addLeadingZeros(countDown.sec)}</strong>
+              <strong>00</strong>
               </Col>
             </Row>
             <Row>
